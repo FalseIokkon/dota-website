@@ -1,0 +1,56 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+venv/
+env/
+.venv/
+ENV/
+
+# Ignore logs and caches
+*.log
+*.sqlite3
+*.db-journal
+*.pyproj
+*.tmp
+*.bak
+*.swp
+
+# ---- Node / JavaScript ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.cache/
+.DS_Store
+
+# ---- Database ----
+backend/dota.db
+backend/*.db
+*.sqlite
+
+# ---- Environment & Secrets ----
+.env
+.env.*
+config/*.env
+config/.env
+
+# ---- OS / Editor files ----
+# macOS / Windows
+.DS_Store
+Thumbs.db
+# VSCode
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Deployment Artifacts ----
+# rsync or deploy output folders (if any)
+deploy/
+releases/
+tmp/

@@ -1,0 +1,84 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #343434;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #6CA6C1;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 2rem;
+    background: #343434;
+    max-width: 800px;
+    margin: 2rem auto;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 8px;
+}
+
+
+/* Images */
+img {
+    max-width: 30%;   /* keeps the image from overflowing its container */
+    height: auto;      /* maintains aspect ratio */
+}
+
+
+/* Links */
+main a {
+    color: #FFEA70;          /* normal link color (blueish) */
+    text-decoration: none;   /* remove underline */
+    font-weight: bold;
+}
+
+main a:hover {
+    color: #FFD700;          /* darker blue when hovering */
+    text-decoration: underline;
+}
+

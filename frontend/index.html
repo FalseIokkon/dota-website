@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | My Website</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+    <h1>DOTA Games.site</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>
+      This is the homepage of my simple 4-page website. 
+
+    <pre id="reportBox"
+        style="
+        height:400px;
+        overflow:auto;
+        background:rgba(0, 0, 0, 0.2);
+        color:white;
+        padding:10px;
+        font-family:monospace;
+        border:none;
+        ">
+    </pre>
+    <script>
+    async function loadReport(){
+    const res = await fetch('assets/output.txt', {cache: 'no-store'});
+    const text = await res.text();
+    const box = document.getElementById('reportBox');
+    box.textContent = text;
+    box.scrollTop = box.scrollHeight; // scroll to bottom
+    }
+    loadReport();
+    setInterval(loadReport, 60000); // refresh every 60s
+    </script>
+
+
+    </p>
+
+
+
+  </main>
+
+
+  
+
+
+  <footer>
+    <p>&copy; 2025 DOTA Games.site</p>
+  </footer>
+</body>
+</html>
