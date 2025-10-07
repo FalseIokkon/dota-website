@@ -95,7 +95,7 @@ if status_ok:
                     f.write(json.dumps(m) + "\n")
 
             with open(log_path, "a") as log:
-                log.write(f"{datetime.now()}\tAdded {len(unique_new_matches)} new matches.\n")
+                log.write(f"{datetime.now()}\tAdded {len(unique_new_matches)} new matches to jsonl & dota.db.\n")
 
         except sqlite3.Error as e:
             # If DB insert fails, do NOT write to JSONL; log the error
