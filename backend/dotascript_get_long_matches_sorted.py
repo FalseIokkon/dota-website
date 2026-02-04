@@ -15,7 +15,7 @@ with open("tournament_list.txt", "r") as f:
 
 # setup series
 series = {} # dictionary
-with open("data/2025.jsonl", "r") as f:
+with open("data/2026.jsonl", "r") as f:
     for line in f:
         try:
             match = json.loads(line)
