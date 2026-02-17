@@ -5816,3 +5816,557 @@
 2026-02-05 11:30:01.598052	No New Matches Added.
 2026-02-05 12:00:01.550574	Added 5 new matches to jsonl & dota.db.
 2026-02-05 12:30:01.625819	Added 1 new matches to jsonl & dota.db.
+2026-02-05 13:00:01.948278	Added 3 new matches to jsonl & dota.db.
+2026-02-05 13:30:02.125582	Added 4 new matches to jsonl & dota.db.
+2026-02-05 14:00:01.559161	No New Matches Added.
+2026-02-05 14:30:01.694241	Added 3 new matches to jsonl & dota.db.
+2026-02-05 15:00:01.709376	Added 1 new matches to jsonl & dota.db.
+2026-02-05 15:30:01.469743	No New Matches Added.
+2026-02-05 16:00:02.428189	Added 1 new matches to jsonl & dota.db.
+2026-02-05 16:30:01.709291	Added 1 new matches to jsonl & dota.db.
+2026-02-05 17:00:01.420325	Added 1 new matches to jsonl & dota.db.
+2026-02-05 17:30:02.108095	No New Matches Added.
+2026-02-05 18:00:03.420810	Added 1 new matches to jsonl & dota.db.
+2026-02-05 18:30:02.280656	Added 1 new matches to jsonl & dota.db.
+2026-02-05 19:00:01.933932	No New Matches Added.
+2026-02-05 19:30:01.452685	Added 1 new matches to jsonl & dota.db.
+2026-02-05 20:00:02.331801	No New Matches Added.
+2026-02-05 20:30:01.894759	No New Matches Added.
+2026-02-05 21:00:01.999565	No New Matches Added.
+2026-02-05 21:30:02.027501	Added 1 new matches to jsonl & dota.db.
+2026-02-05 22:00:01.426386	Added 2 new matches to jsonl & dota.db.
+2026-02-05 22:30:02.143904	No New Matches Added.
+2026-02-05 23:00:01.818015	Added 3 new matches to jsonl & dota.db.
+2026-02-05 23:30:01.865004	Added 2 new matches to jsonl & dota.db.
+2026-02-06 00:00:02.403542	Added 3 new matches to jsonl & dota.db.
+2026-02-06 00:30:01.782920	No New Matches Added.
+2026-02-06 01:00:01.898277	Added 1 new matches to jsonl & dota.db.
+2026-02-06 01:30:01.544350	Added 2 new matches to jsonl & dota.db.
+2026-02-06 02:00:01.890626	No New Matches Added.
+2026-02-06 02:30:02.056873	Added 2 new matches to jsonl & dota.db.
+2026-02-06 03:00:01.544358	Added 1 new matches to jsonl & dota.db.
+2026-02-06 03:30:02.266115	Added 1 new matches to jsonl & dota.db.
+2026-02-06 04:00:01.910996	No New Matches Added.
+2026-02-06 04:30:01.811928	Added 1 new matches to jsonl & dota.db.
+2026-02-06 05:00:02.346555	Added 4 new matches to jsonl & dota.db.
+2026-02-06 05:30:01.984612	Added 2 new matches to jsonl & dota.db.
+2026-02-06 06:00:01.689974	Added 2 new matches to jsonl & dota.db.
+2026-02-06 06:30:01.818619	Added 3 new matches to jsonl & dota.db.
+2026-02-06 07:00:01.643241	Added 1 new matches to jsonl & dota.db.
+2026-02-06 07:30:01.769877	Added 3 new matches to jsonl & dota.db.
+2026-02-06 08:00:01.654995	Added 1 new matches to jsonl & dota.db.
+2026-02-06 08:30:02.149017	Added 1 new matches to jsonl & dota.db.
+2026-02-06 09:00:01.443737	Added 3 new matches to jsonl & dota.db.
+2026-02-06 09:30:02.408097	Added 2 new matches to jsonl & dota.db.
+2026-02-06 10:00:01.803348	Added 2 new matches to jsonl & dota.db.
+2026-02-06 10:30:01.971051	Added 3 new matches to jsonl & dota.db.
+2026-02-06 11:00:02.074168	Added 1 new matches to jsonl & dota.db.
+2026-02-06 11:30:02.014112	Added 2 new matches to jsonl & dota.db.
+2026-02-06 12:00:02.000884	Added 2 new matches to jsonl & dota.db.
+2026-02-06 12:30:02.146309	Added 1 new matches to jsonl & dota.db.
+2026-02-06 13:00:02.076755	Added 4 new matches to jsonl & dota.db.
+2026-02-06 13:30:02.281637	Added 1 new matches to jsonl & dota.db.
+2026-02-06 14:00:01.870007	Added 3 new matches to jsonl & dota.db.
+2026-02-06 14:30:01.773497	No New Matches Added.
+2026-02-06 15:00:02.280103	Added 1 new matches to jsonl & dota.db.
+2026-02-06 15:30:01.840686	No New Matches Added.
+2026-02-06 16:00:01.849525	Added 1 new matches to jsonl & dota.db.
+2026-02-06 16:30:01.536345	Added 1 new matches to jsonl & dota.db.
+2026-02-06 17:00:02.080570	Added 1 new matches to jsonl & dota.db.
+2026-02-06 17:30:01.794084	No New Matches Added.
+2026-02-06 18:00:02.392082	Added 1 new matches to jsonl & dota.db.
+2026-02-06 18:30:02.237058	No New Matches Added.
+2026-02-06 19:00:02.096382	Added 1 new matches to jsonl & dota.db.
+2026-02-06 19:30:02.117218	Added 1 new matches to jsonl & dota.db.
+2026-02-06 20:00:02.376974	No New Matches Added.
+2026-02-06 20:30:02.055672	Added 1 new matches to jsonl & dota.db.
+2026-02-06 21:00:02.221714	No New Matches Added.
+2026-02-06 21:30:02.354340	Added 1 new matches to jsonl & dota.db.
+2026-02-06 22:00:02.069575	Added 1 new matches to jsonl & dota.db.
+2026-02-06 22:30:02.103112	Added 1 new matches to jsonl & dota.db.
+2026-02-06 23:00:01.989400	Added 2 new matches to jsonl & dota.db.
+2026-02-06 23:30:01.751877	Added 1 new matches to jsonl & dota.db.
+2026-02-07 00:00:01.671072	Added 2 new matches to jsonl & dota.db.
+2026-02-07 00:30:02.090541	Added 2 new matches to jsonl & dota.db.
+2026-02-07 01:00:02.271802	Added 1 new matches to jsonl & dota.db.
+2026-02-07 01:30:01.932775	Added 1 new matches to jsonl & dota.db.
+2026-02-07 02:00:01.934934	Added 2 new matches to jsonl & dota.db.
+2026-02-07 02:30:02.274493	Added 2 new matches to jsonl & dota.db.
+2026-02-07 03:00:01.947335	No New Matches Added.
+2026-02-07 03:30:02.124375	No New Matches Added.
+2026-02-07 04:00:02.094815	Added 1 new matches to jsonl & dota.db.
+2026-02-07 04:30:01.521407	Added 1 new matches to jsonl & dota.db.
+2026-02-07 05:00:01.994013	Added 2 new matches to jsonl & dota.db.
+2026-02-07 05:30:01.625537	Added 2 new matches to jsonl & dota.db.
+2026-02-07 06:00:02.152207	Added 2 new matches to jsonl & dota.db.
+2026-02-07 06:30:02.083127	Added 2 new matches to jsonl & dota.db.
+2026-02-07 07:00:01.455677	Added 1 new matches to jsonl & dota.db.
+2026-02-07 07:30:01.566282	No New Matches Added.
+2026-02-07 08:00:02.415648	Added 1 new matches to jsonl & dota.db.
+2026-02-07 08:30:01.971627	Added 4 new matches to jsonl & dota.db.
+2026-02-07 09:00:02.123955	Added 1 new matches to jsonl & dota.db.
+2026-02-07 09:30:01.461305	Added 2 new matches to jsonl & dota.db.
+2026-02-07 10:00:01.848367	Added 3 new matches to jsonl & dota.db.
+2026-02-07 10:30:01.369437	No New Matches Added.
+2026-02-07 11:00:02.135754	Added 3 new matches to jsonl & dota.db.
+2026-02-07 11:30:01.811906	No New Matches Added.
+2026-02-07 12:00:01.452536	Added 2 new matches to jsonl & dota.db.
+2026-02-07 12:30:01.774385	Added 1 new matches to jsonl & dota.db.
+2026-02-07 13:00:02.146268	Added 5 new matches to jsonl & dota.db.
+2026-02-07 13:30:01.633031	Added 2 new matches to jsonl & dota.db.
+2026-02-07 14:00:01.612145	Added 5 new matches to jsonl & dota.db.
+2026-02-07 14:30:02.307407	Added 2 new matches to jsonl & dota.db.
+2026-02-07 15:00:01.749068	Added 2 new matches to jsonl & dota.db.
+2026-02-07 15:30:01.868590	No New Matches Added.
+2026-02-07 16:00:02.289543	No New Matches Added.
+2026-02-07 16:30:02.253776	No New Matches Added.
+2026-02-07 17:00:01.838272	Added 1 new matches to jsonl & dota.db.
+2026-02-07 17:30:02.271571	No New Matches Added.
+2026-02-07 18:00:02.362860	No New Matches Added.
+2026-02-07 18:30:02.173706	No New Matches Added.
+2026-02-07 19:00:01.467989	No New Matches Added.
+2026-02-07 19:30:01.718925	No New Matches Added.
+2026-02-07 20:00:01.673653	Added 1 new matches to jsonl & dota.db.
+2026-02-07 20:30:01.450007	No New Matches Added.
+2026-02-07 21:00:02.241556	Added 1 new matches to jsonl & dota.db.
+2026-02-07 21:30:02.304522	Added 1 new matches to jsonl & dota.db.
+2026-02-07 22:00:02.002772	Added 2 new matches to jsonl & dota.db.
+2026-02-07 22:30:02.220959	Added 1 new matches to jsonl & dota.db.
+2026-02-07 23:00:02.303869	Added 2 new matches to jsonl & dota.db.
+2026-02-07 23:30:01.552648	Added 2 new matches to jsonl & dota.db.
+2026-02-08 00:00:02.210505	Added 1 new matches to jsonl & dota.db.
+2026-02-08 00:30:01.543628	Added 2 new matches to jsonl & dota.db.
+2026-02-08 01:00:01.564957	Added 1 new matches to jsonl & dota.db.
+2026-02-08 01:30:02.288645	Added 1 new matches to jsonl & dota.db.
+2026-02-08 02:00:01.579700	Added 1 new matches to jsonl & dota.db.
+2026-02-08 02:30:02.261853	Added 1 new matches to jsonl & dota.db.
+2026-02-08 03:00:01.780316	Added 1 new matches to jsonl & dota.db.
+2026-02-08 03:30:01.792371	Added 1 new matches to jsonl & dota.db.
+2026-02-08 04:00:01.923867	Added 1 new matches to jsonl & dota.db.
+2026-02-08 04:30:01.441755	Added 1 new matches to jsonl & dota.db.
+2026-02-08 05:00:02.009825	Added 14 new matches to jsonl & dota.db.
+2026-02-08 05:30:01.984141	Added 4 new matches to jsonl & dota.db.
+2026-02-08 06:00:01.690178	Added 1 new matches to jsonl & dota.db.
+2026-02-08 06:30:02.287777	Added 9 new matches to jsonl & dota.db.
+2026-02-08 07:00:01.706348	Added 1 new matches to jsonl & dota.db.
+2026-02-08 07:30:01.590814	Added 3 new matches to jsonl & dota.db.
+2026-02-08 08:00:02.071757	Added 3 new matches to jsonl & dota.db.
+2026-02-08 08:30:02.127748	Added 1 new matches to jsonl & dota.db.
+2026-02-08 09:00:01.693613	Added 2 new matches to jsonl & dota.db.
+2026-02-08 09:30:01.758414	Added 1 new matches to jsonl & dota.db.
+2026-02-08 10:00:01.521061	Added 3 new matches to jsonl & dota.db.
+2026-02-08 10:30:02.204912	Added 2 new matches to jsonl & dota.db.
+2026-02-08 11:00:01.797604	Added 1 new matches to jsonl & dota.db.
+2026-02-08 11:30:02.304088	Added 1 new matches to jsonl & dota.db.
+2026-02-08 12:00:02.312708	No New Matches Added.
+2026-02-08 12:30:01.494375	Added 2 new matches to jsonl & dota.db.
+2026-02-08 13:00:02.223415	Added 1 new matches to jsonl & dota.db.
+2026-02-08 13:30:01.540554	Added 1 new matches to jsonl & dota.db.
+2026-02-08 14:00:01.870307	Added 2 new matches to jsonl & dota.db.
+2026-02-08 14:30:02.039961	No New Matches Added.
+2026-02-08 15:00:01.595862	Added 2 new matches to jsonl & dota.db.
+2026-02-08 15:30:02.120161	Added 1 new matches to jsonl & dota.db.
+2026-02-08 16:00:01.547090	Added 1 new matches to jsonl & dota.db.
+2026-02-08 16:30:01.557675	Added 1 new matches to jsonl & dota.db.
+2026-02-08 17:00:01.554536	Added 2 new matches to jsonl & dota.db.
+2026-02-08 17:30:01.650537	No New Matches Added.
+2026-02-08 18:00:01.805667	Added 1 new matches to jsonl & dota.db.
+2026-02-08 18:30:01.636249	Added 1 new matches to jsonl & dota.db.
+2026-02-08 19:00:01.751149	No New Matches Added.
+2026-02-08 19:30:01.644614	No New Matches Added.
+2026-02-08 20:00:02.319907	No New Matches Added.
+2026-02-08 20:30:01.592313	No New Matches Added.
+2026-02-08 21:00:02.029732	Added 1 new matches to jsonl & dota.db.
+2026-02-08 21:30:02.206114	Added 1 new matches to jsonl & dota.db.
+2026-02-08 22:00:02.084391	Added 3 new matches to jsonl & dota.db.
+2026-02-08 22:30:02.071883	No New Matches Added.
+2026-02-08 23:00:01.510339	Added 2 new matches to jsonl & dota.db.
+2026-02-08 23:30:02.298262	Added 4 new matches to jsonl & dota.db.
+2026-02-09 00:00:02.071114	Added 2 new matches to jsonl & dota.db.
+2026-02-09 00:30:02.208551	Added 2 new matches to jsonl & dota.db.
+2026-02-09 01:00:02.175227	No New Matches Added.
+2026-02-09 01:30:01.701276	Added 3 new matches to jsonl & dota.db.
+2026-02-09 02:00:01.951093	Added 2 new matches to jsonl & dota.db.
+2026-02-09 02:30:01.755863	Added 1 new matches to jsonl & dota.db.
+2026-02-09 03:00:02.029643	Added 2 new matches to jsonl & dota.db.
+2026-02-09 03:30:02.349431	Added 2 new matches to jsonl & dota.db.
+2026-02-09 04:00:01.575580	Added 1 new matches to jsonl & dota.db.
+2026-02-09 04:30:01.551550	Added 3 new matches to jsonl & dota.db.
+2026-02-09 05:00:01.718780	Added 1 new matches to jsonl & dota.db.
+2026-02-09 05:30:02.065366	Added 3 new matches to jsonl & dota.db.
+2026-02-09 06:00:02.076038	No New Matches Added.
+2026-02-09 06:30:01.626236	Added 2 new matches to jsonl & dota.db.
+2026-02-09 07:00:02.164693	Added 2 new matches to jsonl & dota.db.
+2026-02-09 07:30:01.765183	Added 2 new matches to jsonl & dota.db.
+2026-02-09 08:00:01.949477	Added 2 new matches to jsonl & dota.db.
+2026-02-09 08:30:02.098762	Added 2 new matches to jsonl & dota.db.
+2026-02-09 09:00:01.978146	Added 1 new matches to jsonl & dota.db.
+2026-02-09 09:30:01.730336	Added 2 new matches to jsonl & dota.db.
+2026-02-09 10:00:01.925554	Added 1 new matches to jsonl & dota.db.
+2026-02-09 10:30:01.765633	Added 2 new matches to jsonl & dota.db.
+2026-02-09 11:00:01.924690	Added 1 new matches to jsonl & dota.db.
+2026-02-09 11:30:01.783664	Added 2 new matches to jsonl & dota.db.
+2026-02-09 12:00:01.889021	Added 1 new matches to jsonl & dota.db.
+2026-02-09 12:30:01.619501	Added 2 new matches to jsonl & dota.db.
+2026-02-09 13:00:01.553715	Added 1 new matches to jsonl & dota.db.
+2026-02-09 13:30:01.567661	Added 3 new matches to jsonl & dota.db.
+2026-02-09 14:00:01.788031	No New Matches Added.
+2026-02-09 14:30:01.581912	Added 2 new matches to jsonl & dota.db.
+2026-02-09 15:00:01.721222	No New Matches Added.
+2026-02-09 15:30:01.647811	Added 2 new matches to jsonl & dota.db.
+2026-02-09 16:00:02.349223	Added 1 new matches to jsonl & dota.db.
+2026-02-09 16:30:02.114670	No New Matches Added.
+2026-02-09 17:00:01.897157	Added 1 new matches to jsonl & dota.db.
+2026-02-09 17:30:01.418929	No New Matches Added.
+2026-02-09 18:00:02.103065	Added 1 new matches to jsonl & dota.db.
+2026-02-09 18:30:02.353861	Added 1 new matches to jsonl & dota.db.
+2026-02-09 19:00:02.176373	No New Matches Added.
+2026-02-09 19:30:01.538878	Added 1 new matches to jsonl & dota.db.
+2026-02-09 20:00:01.816193	Added 1 new matches to jsonl & dota.db.
+2026-02-09 20:30:01.532763	No New Matches Added.
+2026-02-09 21:00:02.273281	Added 1 new matches to jsonl & dota.db.
+2026-02-09 21:30:01.808274	Added 1 new matches to jsonl & dota.db.
+2026-02-09 22:00:02.410499	Added 3 new matches to jsonl & dota.db.
+2026-02-09 22:30:02.224632	Added 1 new matches to jsonl & dota.db.
+2026-02-09 23:00:02.182538	Added 2 new matches to jsonl & dota.db.
+2026-02-09 23:30:01.868701	Added 2 new matches to jsonl & dota.db.
+2026-02-10 00:00:01.656444	Added 2 new matches to jsonl & dota.db.
+2026-02-10 00:30:01.535466	Added 3 new matches to jsonl & dota.db.
+2026-02-10 01:00:01.471059	Added 3 new matches to jsonl & dota.db.
+2026-02-10 01:30:02.377739	Added 2 new matches to jsonl & dota.db.
+2026-02-10 02:00:01.902703	Added 2 new matches to jsonl & dota.db.
+2026-02-10 02:30:01.584507	Added 1 new matches to jsonl & dota.db.
+2026-02-10 03:00:01.590026	Added 2 new matches to jsonl & dota.db.
+2026-02-10 03:30:02.340702	Added 1 new matches to jsonl & dota.db.
+2026-02-10 04:00:02.167570	Added 2 new matches to jsonl & dota.db.
+2026-02-10 04:30:02.152461	Added 1 new matches to jsonl & dota.db.
+2026-02-10 05:00:02.366429	Added 2 new matches to jsonl & dota.db.
+2026-02-10 05:30:01.901774	Added 3 new matches to jsonl & dota.db.
+2026-02-10 06:00:02.154745	Added 1 new matches to jsonl & dota.db.
+2026-02-10 06:30:02.448334	Added 1 new matches to jsonl & dota.db.
+2026-02-10 07:00:01.496872	Added 2 new matches to jsonl & dota.db.
+2026-02-10 07:30:02.158416	Added 2 new matches to jsonl & dota.db.
+2026-02-10 08:00:02.238554	Added 2 new matches to jsonl & dota.db.
+2026-02-10 08:30:01.972695	Added 2 new matches to jsonl & dota.db.
+2026-02-10 09:00:02.226668	Added 1 new matches to jsonl & dota.db.
+2026-02-10 09:30:01.891715	Added 3 new matches to jsonl & dota.db.
+2026-02-10 10:00:01.674687	Added 1 new matches to jsonl & dota.db.
+2026-02-10 10:30:01.756350	Added 2 new matches to jsonl & dota.db.
+2026-02-10 11:00:01.819147	No New Matches Added.
+2026-02-10 11:30:01.336700	Added 2 new matches to jsonl & dota.db.
+2026-02-10 12:00:01.915471	No New Matches Added.
+2026-02-10 12:30:01.792611	Added 2 new matches to jsonl & dota.db.
+2026-02-10 13:00:01.933534	Added 2 new matches to jsonl & dota.db.
+2026-02-10 13:30:01.629257	Added 1 new matches to jsonl & dota.db.
+2026-02-10 14:00:01.582331	Added 2 new matches to jsonl & dota.db.
+2026-02-10 14:30:02.292894	Added 1 new matches to jsonl & dota.db.
+2026-02-10 15:00:01.408625	Added 1 new matches to jsonl & dota.db.
+2026-02-10 15:30:01.734848	Added 1 new matches to jsonl & dota.db.
+2026-02-10 16:00:02.187089	No New Matches Added.
+2026-02-10 16:30:02.329459	Added 1 new matches to jsonl & dota.db.
+2026-02-10 17:00:01.984578	No New Matches Added.
+2026-02-10 17:30:01.734278	Added 1 new matches to jsonl & dota.db.
+2026-02-10 18:00:01.392611	No New Matches Added.
+2026-02-10 18:30:02.265617	Added 1 new matches to jsonl & dota.db.
+2026-02-10 19:00:01.748411	Added 1 new matches to jsonl & dota.db.
+2026-02-10 19:30:02.362637	Added 1 new matches to jsonl & dota.db.
+2026-02-10 20:00:02.144830	No New Matches Added.
+2026-02-10 20:30:01.801267	No New Matches Added.
+2026-02-10 21:00:02.129943	No New Matches Added.
+2026-02-10 21:30:02.178370	Added 1 new matches to jsonl & dota.db.
+2026-02-10 22:00:02.107012	Added 1 new matches to jsonl & dota.db.
+2026-02-10 22:30:01.422052	Added 1 new matches to jsonl & dota.db.
+2026-02-10 23:00:21.979233	FAILED request: HTTPSConnectionPool(host='api.opendota.com', port=443): Read timed out. (read timeout=20)
+2026-02-10 23:30:22.047668	FAILED request: HTTPSConnectionPool(host='api.opendota.com', port=443): Read timed out. (read timeout=20)
+2026-02-11 00:00:22.038588	FAILED request: HTTPSConnectionPool(host='api.opendota.com', port=443): Read timed out. (read timeout=20)
+2026-02-11 00:30:02.160363	Added 11 new matches to jsonl & dota.db.
+2026-02-11 01:00:01.500368	Added 1 new matches to jsonl & dota.db.
+2026-02-11 01:30:01.542379	Added 2 new matches to jsonl & dota.db.
+2026-02-11 02:00:03.416376	Added 2 new matches to jsonl & dota.db.
+2026-02-11 02:30:01.723187	Added 1 new matches to jsonl & dota.db.
+2026-02-11 03:00:02.190937	Added 1 new matches to jsonl & dota.db.
+2026-02-11 03:30:01.653188	Added 2 new matches to jsonl & dota.db.
+2026-02-11 04:00:01.453085	Added 2 new matches to jsonl & dota.db.
+2026-02-11 04:30:01.692972	Added 2 new matches to jsonl & dota.db.
+2026-02-11 05:00:01.571549	Added 4 new matches to jsonl & dota.db.
+2026-02-11 05:30:02.048771	Added 4 new matches to jsonl & dota.db.
+2026-02-11 06:00:02.292095	Added 1 new matches to jsonl & dota.db.
+2026-02-11 06:30:01.733352	Added 1 new matches to jsonl & dota.db.
+2026-02-11 07:00:01.596837	Added 3 new matches to jsonl & dota.db.
+2026-02-11 07:30:02.053767	Added 1 new matches to jsonl & dota.db.
+2026-02-11 08:00:02.166727	Added 5 new matches to jsonl & dota.db.
+2026-02-11 08:30:01.709292	Added 4 new matches to jsonl & dota.db.
+2026-02-11 09:00:01.624791	Added 1 new matches to jsonl & dota.db.
+2026-02-11 09:30:02.182309	Added 3 new matches to jsonl & dota.db.
+2026-02-11 10:00:01.728228	Added 3 new matches to jsonl & dota.db.
+2026-02-11 10:30:01.522091	Added 3 new matches to jsonl & dota.db.
+2026-02-11 11:00:01.566058	No New Matches Added.
+2026-02-11 11:30:01.913573	Added 3 new matches to jsonl & dota.db.
+2026-02-11 12:00:02.070348	Added 3 new matches to jsonl & dota.db.
+2026-02-11 12:30:01.456984	No New Matches Added.
+2026-02-11 13:00:02.183444	Added 3 new matches to jsonl & dota.db.
+2026-02-11 13:30:02.236382	No New Matches Added.
+2026-02-11 14:00:01.993772	Added 2 new matches to jsonl & dota.db.
+2026-02-11 14:30:02.317341	Added 1 new matches to jsonl & dota.db.
+2026-02-11 15:00:02.341706	Added 1 new matches to jsonl & dota.db.
+2026-02-11 15:30:02.118118	Added 1 new matches to jsonl & dota.db.
+2026-02-11 16:00:01.770572	Added 1 new matches to jsonl & dota.db.
+2026-02-11 16:30:01.639784	No New Matches Added.
+2026-02-11 17:00:02.282176	Added 1 new matches to jsonl & dota.db.
+2026-02-11 17:30:02.047474	Added 1 new matches to jsonl & dota.db.
+2026-02-11 18:00:01.595136	No New Matches Added.
+2026-02-11 18:30:02.363085	Added 1 new matches to jsonl & dota.db.
+2026-02-11 19:00:01.799190	No New Matches Added.
+2026-02-11 19:30:01.641137	Added 1 new matches to jsonl & dota.db.
+2026-02-11 20:00:01.938241	Added 1 new matches to jsonl & dota.db.
+2026-02-11 20:30:02.320141	No New Matches Added.
+2026-02-11 21:00:01.727346	No New Matches Added.
+2026-02-11 21:30:02.035373	Added 2 new matches to jsonl & dota.db.
+2026-02-11 22:00:01.352515	Added 2 new matches to jsonl & dota.db.
+2026-02-11 22:30:02.181603	Added 2 new matches to jsonl & dota.db.
+2026-02-11 23:00:02.656981	Added 3 new matches to jsonl & dota.db.
+2026-02-11 23:30:02.306671	Added 1 new matches to jsonl & dota.db.
+2026-02-12 00:00:02.185947	Added 4 new matches to jsonl & dota.db.
+2026-02-12 00:30:01.668123	Added 2 new matches to jsonl & dota.db.
+2026-02-12 01:00:02.310042	No New Matches Added.
+2026-02-12 01:30:01.421074	Added 3 new matches to jsonl & dota.db.
+2026-02-12 02:00:02.198441	Added 1 new matches to jsonl & dota.db.
+2026-02-12 02:30:02.157020	Added 2 new matches to jsonl & dota.db.
+2026-02-12 03:00:01.879457	Added 2 new matches to jsonl & dota.db.
+2026-02-12 03:30:02.080265	Added 3 new matches to jsonl & dota.db.
+2026-02-12 04:00:01.840157	Added 1 new matches to jsonl & dota.db.
+2026-02-12 04:30:01.561497	Added 3 new matches to jsonl & dota.db.
+2026-02-12 05:00:01.485003	Added 1 new matches to jsonl & dota.db.
+2026-02-12 05:30:01.977079	Added 3 new matches to jsonl & dota.db.
+2026-02-12 06:00:01.919865	Added 1 new matches to jsonl & dota.db.
+2026-02-12 06:30:02.374848	Added 2 new matches to jsonl & dota.db.
+2026-02-12 07:00:01.498622	Added 3 new matches to jsonl & dota.db.
+2026-02-12 07:30:01.614181	Added 3 new matches to jsonl & dota.db.
+2026-02-12 08:00:02.209374	Added 3 new matches to jsonl & dota.db.
+2026-02-12 08:30:02.303398	Added 2 new matches to jsonl & dota.db.
+2026-02-12 09:00:01.613844	Added 3 new matches to jsonl & dota.db.
+2026-02-12 09:30:02.371095	Added 4 new matches to jsonl & dota.db.
+2026-02-12 10:00:01.711768	Added 2 new matches to jsonl & dota.db.
+2026-02-12 10:30:01.669386	Added 2 new matches to jsonl & dota.db.
+2026-02-12 11:00:01.463435	Added 1 new matches to jsonl & dota.db.
+2026-02-12 11:30:02.169080	Added 1 new matches to jsonl & dota.db.
+2026-02-12 12:00:02.328971	Added 2 new matches to jsonl & dota.db.
+2026-02-12 12:30:01.519169	Added 3 new matches to jsonl & dota.db.
+2026-02-12 13:00:01.479647	Added 3 new matches to jsonl & dota.db.
+2026-02-12 13:30:01.402215	Added 2 new matches to jsonl & dota.db.
+2026-02-12 14:00:02.385997	No New Matches Added.
+2026-02-12 14:30:02.074100	Added 1 new matches to jsonl & dota.db.
+2026-02-12 15:00:02.382896	Added 2 new matches to jsonl & dota.db.
+2026-02-12 15:30:01.537246	Added 1 new matches to jsonl & dota.db.
+2026-02-12 16:00:01.726500	No New Matches Added.
+2026-02-12 16:30:01.440210	No New Matches Added.
+2026-02-12 17:00:01.559662	Added 1 new matches to jsonl & dota.db.
+2026-02-12 17:30:02.288188	Added 1 new matches to jsonl & dota.db.
+2026-02-12 18:00:02.156391	Added 1 new matches to jsonl & dota.db.
+2026-02-12 18:30:01.987133	No New Matches Added.
+2026-02-12 19:00:01.782207	Added 1 new matches to jsonl & dota.db.
+2026-02-12 19:30:01.891259	Added 1 new matches to jsonl & dota.db.
+2026-02-12 20:00:02.116648	No New Matches Added.
+2026-02-12 20:30:02.003921	No New Matches Added.
+2026-02-12 21:00:01.988641	No New Matches Added.
+2026-02-12 21:30:01.981578	Added 1 new matches to jsonl & dota.db.
+2026-02-12 22:00:01.772851	Added 2 new matches to jsonl & dota.db.
+2026-02-12 22:30:02.368796	Added 1 new matches to jsonl & dota.db.
+2026-02-12 23:00:01.720951	Added 2 new matches to jsonl & dota.db.
+2026-02-12 23:30:01.871909	Added 3 new matches to jsonl & dota.db.
+2026-02-13 00:00:01.811649	Added 3 new matches to jsonl & dota.db.
+2026-02-13 00:30:02.141728	Added 2 new matches to jsonl & dota.db.
+2026-02-13 01:00:01.455957	No New Matches Added.
+2026-02-13 01:30:01.595193	Added 3 new matches to jsonl & dota.db.
+2026-02-13 02:00:01.584290	Added 2 new matches to jsonl & dota.db.
+2026-02-13 02:30:01.652393	Added 1 new matches to jsonl & dota.db.
+2026-02-13 03:00:01.413120	Added 2 new matches to jsonl & dota.db.
+2026-02-13 03:30:02.253022	Added 3 new matches to jsonl & dota.db.
+2026-02-13 04:00:02.218251	Added 2 new matches to jsonl & dota.db.
+2026-02-13 04:30:02.132285	Added 3 new matches to jsonl & dota.db.
+2026-02-13 05:00:01.967657	Added 1 new matches to jsonl & dota.db.
+2026-02-13 05:30:01.897071	Added 1 new matches to jsonl & dota.db.
+2026-02-13 06:00:01.453503	Added 2 new matches to jsonl & dota.db.
+2026-02-13 06:30:02.418644	Added 3 new matches to jsonl & dota.db.
+2026-02-13 07:00:02.355633	Added 4 new matches to jsonl & dota.db.
+2026-02-13 07:30:01.694309	Added 4 new matches to jsonl & dota.db.
+2026-02-13 08:00:02.280603	Added 1 new matches to jsonl & dota.db.
+2026-02-13 08:30:01.779896	Added 2 new matches to jsonl & dota.db.
+2026-02-13 09:00:01.527894	Added 2 new matches to jsonl & dota.db.
+2026-02-13 09:30:02.406536	Added 2 new matches to jsonl & dota.db.
+2026-02-13 10:00:02.088953	Added 3 new matches to jsonl & dota.db.
+2026-02-13 10:30:02.015790	Added 1 new matches to jsonl & dota.db.
+2026-02-13 11:00:02.511630	Added 3 new matches to jsonl & dota.db.
+2026-02-13 11:30:02.214693	No New Matches Added.
+2026-02-13 12:00:02.293986	Added 3 new matches to jsonl & dota.db.
+2026-02-13 12:30:02.008347	Added 3 new matches to jsonl & dota.db.
+2026-02-13 13:00:01.853902	Added 3 new matches to jsonl & dota.db.
+2026-02-13 13:30:01.770935	Added 2 new matches to jsonl & dota.db.
+2026-02-13 14:00:01.893793	Added 1 new matches to jsonl & dota.db.
+2026-02-13 14:30:01.511195	Added 1 new matches to jsonl & dota.db.
+2026-02-13 15:00:01.818812	Added 2 new matches to jsonl & dota.db.
+2026-02-13 15:30:02.186832	Added 1 new matches to jsonl & dota.db.
+2026-02-13 16:00:01.486255	No New Matches Added.
+2026-02-13 16:30:01.742814	Added 2 new matches to jsonl & dota.db.
+2026-02-13 17:00:01.967955	Added 1 new matches to jsonl & dota.db.
+2026-02-13 17:30:01.692192	No New Matches Added.
+2026-02-13 18:00:01.525414	Added 1 new matches to jsonl & dota.db.
+2026-02-13 18:30:02.130916	Added 1 new matches to jsonl & dota.db.
+2026-02-13 19:00:01.902478	Added 1 new matches to jsonl & dota.db.
+2026-02-13 19:30:02.107395	Added 1 new matches to jsonl & dota.db.
+2026-02-13 20:00:01.559090	No New Matches Added.
+2026-02-13 20:30:02.261136	No New Matches Added.
+2026-02-13 21:00:01.765686	Added 1 new matches to jsonl & dota.db.
+2026-02-13 21:30:02.182446	Added 1 new matches to jsonl & dota.db.
+2026-02-13 22:00:02.313619	Added 1 new matches to jsonl & dota.db.
+2026-02-13 22:30:02.244463	Added 2 new matches to jsonl & dota.db.
+2026-02-13 23:00:01.800958	Added 1 new matches to jsonl & dota.db.
+2026-02-13 23:30:01.885513	Added 1 new matches to jsonl & dota.db.
+2026-02-14 00:00:01.630860	Added 1 new matches to jsonl & dota.db.
+2026-02-14 00:30:01.706687	Added 2 new matches to jsonl & dota.db.
+2026-02-14 01:00:01.528751	Added 1 new matches to jsonl & dota.db.
+2026-02-14 01:30:02.270866	Added 2 new matches to jsonl & dota.db.
+2026-02-14 02:00:01.448494	No New Matches Added.
+2026-02-14 02:30:01.974025	Added 2 new matches to jsonl & dota.db.
+2026-02-14 03:00:01.693298	Added 1 new matches to jsonl & dota.db.
+2026-02-14 03:30:01.656813	Added 1 new matches to jsonl & dota.db.
+2026-02-14 04:00:01.746981	Added 1 new matches to jsonl & dota.db.
+2026-02-14 04:30:02.215248	Added 2 new matches to jsonl & dota.db.
+2026-02-14 05:00:01.721200	Added 2 new matches to jsonl & dota.db.
+2026-02-14 05:30:02.149813	No New Matches Added.
+2026-02-14 06:00:01.913544	Added 3 new matches to jsonl & dota.db.
+2026-02-14 06:30:01.646641	Added 1 new matches to jsonl & dota.db.
+2026-02-14 07:00:01.570052	Added 3 new matches to jsonl & dota.db.
+2026-02-14 07:30:01.848248	Added 1 new matches to jsonl & dota.db.
+2026-02-14 08:00:02.283090	Added 1 new matches to jsonl & dota.db.
+2026-02-14 08:30:02.115629	Added 1 new matches to jsonl & dota.db.
+2026-02-14 09:00:01.538274	Added 2 new matches to jsonl & dota.db.
+2026-02-14 09:30:02.091016	Added 1 new matches to jsonl & dota.db.
+2026-02-14 10:00:01.763167	Added 1 new matches to jsonl & dota.db.
+2026-02-14 10:30:01.689658	Added 1 new matches to jsonl & dota.db.
+2026-02-14 11:00:02.202253	Added 2 new matches to jsonl & dota.db.
+2026-02-14 11:30:02.299787	Added 1 new matches to jsonl & dota.db.
+2026-02-14 12:00:01.759099	No New Matches Added.
+2026-02-14 12:30:02.233263	Added 2 new matches to jsonl & dota.db.
+2026-02-14 13:00:02.339516	Added 1 new matches to jsonl & dota.db.
+2026-02-14 13:30:01.467583	Added 1 new matches to jsonl & dota.db.
+2026-02-14 14:00:02.317505	Added 1 new matches to jsonl & dota.db.
+2026-02-14 14:30:01.622634	Added 1 new matches to jsonl & dota.db.
+2026-02-14 15:00:02.172952	No New Matches Added.
+2026-02-14 15:30:01.898330	No New Matches Added.
+2026-02-14 16:00:02.099184	Added 1 new matches to jsonl & dota.db.
+2026-02-14 16:30:01.596176	No New Matches Added.
+2026-02-14 17:00:01.578858	No New Matches Added.
+2026-02-14 17:30:01.723680	No New Matches Added.
+2026-02-14 18:00:01.466194	No New Matches Added.
+2026-02-14 18:30:01.522380	No New Matches Added.
+2026-02-14 19:00:01.674276	No New Matches Added.
+2026-02-14 19:30:01.935833	No New Matches Added.
+2026-02-14 20:00:02.220984	Added 1 new matches to jsonl & dota.db.
+2026-02-14 20:30:02.320871	Added 1 new matches to jsonl & dota.db.
+2026-02-14 21:00:02.015549	No New Matches Added.
+2026-02-14 21:30:01.686938	Added 1 new matches to jsonl & dota.db.
+2026-02-14 22:00:02.316048	Added 1 new matches to jsonl & dota.db.
+2026-02-14 22:30:02.293447	Added 1 new matches to jsonl & dota.db.
+2026-02-14 23:00:02.363224	Added 2 new matches to jsonl & dota.db.
+2026-02-14 23:30:02.262864	Added 2 new matches to jsonl & dota.db.
+2026-02-15 00:00:01.924572	Added 2 new matches to jsonl & dota.db.
+2026-02-15 00:30:01.968965	Added 1 new matches to jsonl & dota.db.
+2026-02-15 01:00:01.990391	Added 2 new matches to jsonl & dota.db.
+2026-02-15 01:30:02.298767	Added 3 new matches to jsonl & dota.db.
+2026-02-15 02:00:02.314238	Added 1 new matches to jsonl & dota.db.
+2026-02-15 02:30:01.903288	Added 1 new matches to jsonl & dota.db.
+2026-02-15 03:00:02.187669	Added 2 new matches to jsonl & dota.db.
+2026-02-15 03:30:01.681438	Added 2 new matches to jsonl & dota.db.
+2026-02-15 04:00:01.611161	Added 3 new matches to jsonl & dota.db.
+2026-02-15 04:30:02.071848	Added 1 new matches to jsonl & dota.db.
+2026-02-15 05:00:01.597209	Added 7 new matches to jsonl & dota.db.
+2026-02-15 05:30:01.644057	Added 9 new matches to jsonl & dota.db.
+2026-02-15 06:00:01.501935	Added 2 new matches to jsonl & dota.db.
+2026-02-15 06:30:01.791221	Added 2 new matches to jsonl & dota.db.
+2026-02-15 07:00:02.337669	Added 7 new matches to jsonl & dota.db.
+2026-02-15 07:30:02.282048	Added 3 new matches to jsonl & dota.db.
+2026-02-15 08:00:01.495655	Added 1 new matches to jsonl & dota.db.
+2026-02-15 08:30:01.460367	Added 6 new matches to jsonl & dota.db.
+2026-02-15 09:00:01.598057	Added 2 new matches to jsonl & dota.db.
+2026-02-15 09:30:02.204344	Added 1 new matches to jsonl & dota.db.
+2026-02-15 10:00:02.319294	Added 2 new matches to jsonl & dota.db.
+2026-02-15 10:30:01.748307	Added 2 new matches to jsonl & dota.db.
+2026-02-15 11:00:02.111850	Added 2 new matches to jsonl & dota.db.
+2026-02-15 11:30:01.673813	Added 1 new matches to jsonl & dota.db.
+2026-02-15 12:00:01.678730	Added 2 new matches to jsonl & dota.db.
+2026-02-15 12:30:02.400219	Added 1 new matches to jsonl & dota.db.
+2026-02-15 13:00:02.180939	Added 3 new matches to jsonl & dota.db.
+2026-02-15 13:30:01.814010	Added 1 new matches to jsonl & dota.db.
+2026-02-15 14:00:01.489900	No New Matches Added.
+2026-02-15 14:30:01.474667	Added 1 new matches to jsonl & dota.db.
+2026-02-15 15:00:02.352084	Added 1 new matches to jsonl & dota.db.
+2026-02-15 15:30:02.012264	No New Matches Added.
+2026-02-15 16:00:01.596260	Added 1 new matches to jsonl & dota.db.
+2026-02-15 16:30:01.600397	Added 1 new matches to jsonl & dota.db.
+2026-02-15 17:00:01.858544	Added 1 new matches to jsonl & dota.db.
+2026-02-15 17:30:02.138772	No New Matches Added.
+2026-02-15 18:00:02.393865	Added 1 new matches to jsonl & dota.db.
+2026-02-15 18:30:01.419645	Added 1 new matches to jsonl & dota.db.
+2026-02-15 19:00:01.481454	Added 1 new matches to jsonl & dota.db.
+2026-02-15 19:30:02.145743	No New Matches Added.
+2026-02-15 20:00:01.439130	No New Matches Added.
+2026-02-15 20:30:02.452814	No New Matches Added.
+2026-02-15 21:00:01.620262	No New Matches Added.
+2026-02-15 21:30:01.842560	Added 2 new matches to jsonl & dota.db.
+2026-02-15 22:00:01.707551	Added 1 new matches to jsonl & dota.db.
+2026-02-15 22:30:01.914498	Added 3 new matches to jsonl & dota.db.
+2026-02-15 23:00:01.904028	Added 1 new matches to jsonl & dota.db.
+2026-02-15 23:30:01.725161	Added 2 new matches to jsonl & dota.db.
+2026-02-16 00:00:01.492680	Added 3 new matches to jsonl & dota.db.
+2026-02-16 00:30:01.576713	Added 1 new matches to jsonl & dota.db.
+2026-02-16 01:00:02.142571	Added 3 new matches to jsonl & dota.db.
+2026-02-16 01:30:02.081044	Added 2 new matches to jsonl & dota.db.
+2026-02-16 02:00:01.481186	Added 2 new matches to jsonl & dota.db.
+2026-02-16 02:30:02.027359	Added 2 new matches to jsonl & dota.db.
+2026-02-16 03:00:01.893634	Added 5 new matches to jsonl & dota.db.
+2026-02-16 03:30:02.079008	Added 1 new matches to jsonl & dota.db.
+2026-02-16 04:00:01.726045	Added 4 new matches to jsonl & dota.db.
+2026-02-16 04:30:01.936158	No New Matches Added.
+2026-02-16 05:00:01.817686	Added 2 new matches to jsonl & dota.db.
+2026-02-16 05:30:01.729302	Added 3 new matches to jsonl & dota.db.
+2026-02-16 06:00:02.062538	Added 2 new matches to jsonl & dota.db.
+2026-02-16 06:30:01.919576	Added 4 new matches to jsonl & dota.db.
+2026-02-16 07:00:02.046749	Added 2 new matches to jsonl & dota.db.
+2026-02-16 07:30:01.469335	Added 2 new matches to jsonl & dota.db.
+2026-02-16 08:00:01.381757	Added 3 new matches to jsonl & dota.db.
+2026-02-16 08:30:01.578208	Added 2 new matches to jsonl & dota.db.
+2026-02-16 09:00:02.994130	Added 1 new matches to jsonl & dota.db.
+2026-02-16 09:30:02.349607	Added 3 new matches to jsonl & dota.db.
+2026-02-16 10:00:01.511858	No New Matches Added.
+2026-02-16 10:30:01.492736	Added 2 new matches to jsonl & dota.db.
+2026-02-16 11:00:01.770045	Added 2 new matches to jsonl & dota.db.
+2026-02-16 11:30:02.271559	Added 1 new matches to jsonl & dota.db.
+2026-02-16 12:00:02.239676	Added 2 new matches to jsonl & dota.db.
+2026-02-16 12:30:01.771288	Added 1 new matches to jsonl & dota.db.
+2026-02-16 13:00:01.730005	Added 3 new matches to jsonl & dota.db.
+2026-02-16 13:30:01.946858	Added 2 new matches to jsonl & dota.db.
+2026-02-16 14:00:01.609446	Added 1 new matches to jsonl & dota.db.
+2026-02-16 14:30:02.018594	No New Matches Added.
+2026-02-16 15:00:01.640647	Added 1 new matches to jsonl & dota.db.
+2026-02-16 15:30:02.106277	Added 2 new matches to jsonl & dota.db.
+2026-02-16 16:00:01.906775	No New Matches Added.
+2026-02-16 16:30:01.854663	Added 1 new matches to jsonl & dota.db.
+2026-02-16 17:00:01.852641	Added 1 new matches to jsonl & dota.db.
+2026-02-16 17:30:02.334588	Added 1 new matches to jsonl & dota.db.
+2026-02-16 18:00:01.692004	No New Matches Added.
+2026-02-16 18:30:01.646623	Added 1 new matches to jsonl & dota.db.
+2026-02-16 19:00:01.535344	Added 1 new matches to jsonl & dota.db.
+2026-02-16 19:30:02.120555	Added 1 new matches to jsonl & dota.db.
+2026-02-16 20:00:01.994138	Added 1 new matches to jsonl & dota.db.
+2026-02-16 20:30:02.026022	No New Matches Added.
+2026-02-16 21:00:01.984710	No New Matches Added.
+2026-02-16 21:30:01.718424	Added 2 new matches to jsonl & dota.db.
+2026-02-16 22:00:02.011060	Added 2 new matches to jsonl & dota.db.
+2026-02-16 22:30:01.941533	Added 2 new matches to jsonl & dota.db.
+2026-02-16 23:00:01.627087	Added 2 new matches to jsonl & dota.db.
+2026-02-16 23:30:02.054989	Added 2 new matches to jsonl & dota.db.
+2026-02-17 00:00:01.726773	Added 3 new matches to jsonl & dota.db.
+2026-02-17 00:07:25.978929	No New Matches Added.
+2026-02-17 00:07:27.315942	No New Matches Added.
+2026-02-17 00:30:01.514083	No New Matches Added.

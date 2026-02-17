@@ -1,10 +1,9 @@
 import json
 from datetime import datetime
-import dotascript_helper_methods as dota_helper
 
 league_names = []
 
-with open("data/2025.jsonl", "r") as f:
+with open("backend/data/2026.jsonl", "r") as f:
     for line in f:
         try:
             match = json.loads(line)
