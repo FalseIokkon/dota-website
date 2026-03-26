@@ -1,5 +1,4 @@
-x = -2 # start
-while ( x < 6 ):
-    x = x + 1
-    print(f"{x} ", end='')
-# end while 
+from config import OPENDOTA_API_KEY, DATA_DIR
+
+print("API KEY:", OPENDOTA_API_KEY[:5])
+print("DATA DIR:", DATA_DIR)

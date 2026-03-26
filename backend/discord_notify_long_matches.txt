@@ -1,0 +1,341 @@
+2026-03-26 16:31:01.659648	START discord_notify_long_matches
+2026-03-26 16:31:01.996886	NOTIFIED long match 8110950858 (6x:xx) Aztec Duelist vs Dire [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:02.870007	NOTIFIED long match 8112180400 (6x:xx) Radiant vs Demonios  [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:03.810396	NOTIFIED long match 8113884389 (6x:xx) Hokori vs PERRO NEGRO [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:04.613231	NOTIFIED long match 8115077372 (6x:xx) Zero Tenacity vs Dire [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:05.700411	NOTIFIED long match 8115204910 (7x:xx) Radiant vs Y5 [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:06.515426	NOTIFIED long match 8117268536 (6x:xx) Infamous Gaming vs Lava Esports  [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:07.374305	NOTIFIED long match 8118158839 (6x:xx) 1w Team vs Virtus.pro [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:08.367473	NOTIFIED long match 8119267540 (6x:xx) One Move vs ASAKURA [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:09.246230	NOTIFIED long match 8119596030 (6x:xx) Natus Vincere vs L1GA TEAM [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:10.063484	NOTIFIED long match 8119795129 (7x:xx) One Move vs Virtus.pro [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:10.884719	NOTIFIED long match 8120989759 (8x:xx) Xtreme Gaming vs All Gamers Global [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:11.856085	NOTIFIED long match 8121035719 (6x:xx) Natus Vincere vs 9Pandas [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:12.639508	NOTIFIED long match 8121238908 (6x:xx) Passion UA vs Gaimin Gladiators [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:13.522057	NOTIFIED long match 8121749376 (6x:xx) HEROIC vs Fusion Esports [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:14.361483	NOTIFIED long match 8122271877 (6x:xx) Yakult Brothers vs All Gamers Global [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:15.200510	NOTIFIED long match 8123057291 (6x:xx) Tundra Esports vs Gaimin Gladiators [DreamLeague Season 25 Qualifiers powered by Intel]
+2026-03-26 16:31:16.104725	NOTIFIED long match 8126125070 (6x:xx) Fusion Esports vs Blade Breakers [PGL Wallachia Season #3 SA Closed Qualifiers]
+2026-03-26 16:31:16.976132	NOTIFIED long match 8126268953 (7x:xx) Radiant vs Dire [ESL One Raleigh 2025 Qualifiers]
+2026-03-26 16:31:17.816860	NOTIFIED long match 8126729687 (6x:xx) Radiant vs Yoru Ryodan [ESL One Raleigh 2025 Qualifiers]
+2026-03-26 16:31:18.615853	NOTIFIED long match 8127043458 (6x:xx) Execration vs The MongolZ [PGL Wallachia Season #3 SEA Closed Qualifiers]
+2026-03-26 16:31:19.424318	NOTIFIED long match 8128370431 (7x:xx) Radiant vs Yakult Brothers [PGL Wallachia Season #3 CN Closed Qualifiers]
+2026-03-26 16:31:20.338115	NOTIFIED long match 8128412089 (6x:xx) Young Blood vs Execration [PGL Wallachia Season #3 SEA Closed Qualifiers]
+2026-03-26 16:31:21.207696	NOTIFIED long match 8128650521 (6x:xx) OG vs Chimera Esports [PGL Wallachia Season #3 WEU Closed Qualifiers]
+2026-03-26 16:31:22.061639	NOTIFIED long match 8128792637 (6x:xx) 1w Team vs L1GA TEAM [PGL Wallachia Season #3 EEU Closed Qualifiers]
+2026-03-26 16:31:22.871743	NOTIFIED long match 8129589613 (7x:xx) M80 vs Dire [PGL Wallachia Season #3 SA Closed Qualifiers]
+2026-03-26 16:31:23.764326	NOTIFIED long match 8130198697 (6x:xx) OG vs Zero Tenacity [PGL Wallachia Season #3 WEU Closed Qualifiers]
+2026-03-26 16:31:24.742811	NOTIFIED long match 8131439295 (6x:xx) Talon vs Aurora Gaming [ESL One Raleigh 2025 Qualifiers]
+2026-03-26 16:31:25.560195	NOTIFIED long match 8133292128 (9x:xx) Looking for Org vs Flame [ESL One Raleigh 2025 Qualifiers]
+2026-03-26 16:31:26.576512	NOTIFIED long match 8133730075 (6x:xx) Looking for Org vs Fusion Esports [ESL One Raleigh 2025 Qualifiers]
+2026-03-26 16:31:27.441972	NOTIFIED long match 8136495741 (6x:xx) Night Pulse vs Team Secret [ESL One Raleigh 2025 Qualifiers]
+2026-03-26 16:31:28.208463	NOTIFIED long match 8143901956 (6x:xx) AVULUS vs Team Falcons [FISSURE PLAYGROUND 1 - Dota]
+2026-03-26 16:31:29.065890	NOTIFIED long match 8149174253 (6x:xx) PARIVISION vs Team Spirit [FISSURE PLAYGROUND 1 - Dota]
+2026-03-26 16:31:29.882268	NOTIFIED long match 8149255408 (6x:xx) PARIVISION vs Team Spirit [FISSURE PLAYGROUND 1 - Dota]
+2026-03-26 16:31:30.835083	NOTIFIED long match 8149920414 (6x:xx) Talon vs BetBoom Team [FISSURE PLAYGROUND 1 - Dota]
+2026-03-26 16:31:31.640812	NOTIFIED long match 8156671486 (6x:xx) Tundra Esports vs Team Falcons [FISSURE PLAYGROUND 1 - Dota]
+2026-03-26 16:31:32.486223	NOTIFIED long match 8159047339 (6x:xx) Talon vs Tundra Esports [SLAM II]
+2026-03-26 16:31:33.342492	NOTIFIED long match 8165599040 (6x:xx) PERRO NEGRO vs Looking for Org [FISSURE Universe Ep.4 - Closed Qualifiers - SA]
+2026-03-26 16:31:34.375680	NOTIFIED long match 8168882574 (6x:xx) The MongolZ vs Moodeng Warriors [PGL Wallachia Season #4 SEA Closed Qualifiers]
+2026-03-26 16:31:35.237900	NOTIFIED long match 8169880748 (1xx:xx) Night Pulse vs Nigma Galaxy [PGL Wallachia Season #4 WEU Closed Qualifiers]
+2026-03-26 16:31:36.262726	NOTIFIED long match 8171141139 (7x:xx) NAVI Junior vs 1w Team [PGL Wallachia Season #4 EEU Closed Qualifiers]
+2026-03-26 16:31:37.148266	NOTIFIED long match 8171579174 (6x:xx) Wildcard vs Estar Backs [PGL Wallachia Season #4 AMER Closed Qualifiers]
+2026-03-26 16:31:37.938681	NOTIFIED long match 8171727097 (6x:xx) L1GA TEAM vs One Move [PGL Wallachia Season #4 EEU Closed Qualifiers]
+2026-03-26 16:31:38.779655	NOTIFIED long match 8173147115 (6x:xx) All Gamers Global vs Dire [PGL Wallachia Season #4 CN Closed Qualifiers]
+2026-03-26 16:31:39.612197	NOTIFIED long match 8176853300 (6x:xx) Moodeng Warriors vs HEROIC [DreamLeague Season 25 powered by Intel]
+2026-03-26 16:31:40.494302	NOTIFIED long match 8178498792 (6x:xx) PARIVISION vs AVULUS [DreamLeague Season 25 powered by Intel]
+2026-03-26 16:31:41.342472	NOTIFIED long match 8179215784 (6x:xx) BetBoom Team vs Tundra Esports [DreamLeague Season 25 powered by Intel]
+2026-03-26 16:31:42.152056	NOTIFIED long match 8179356848 (6x:xx) Team Spirit vs Team Liquid [DreamLeague Season 25 powered by Intel]
+2026-03-26 16:31:42.922227	NOTIFIED long match 8186332629 (6x:xx) PARIVISION vs Tundra Esports [DreamLeague Season 25 powered by Intel]
+2026-03-26 16:31:43.797053	NOTIFIED long match 8188734692 (7x:xx) Chimera Esports vs BetBoom Team [DreamLeague Season 25 powered by Intel]
+2026-03-26 16:31:44.585573	NOTIFIED long match 8195843134 (7x:xx) Team Spirit vs Chimera Esports [DreamLeague Season 25 powered by Intel]
+2026-03-26 16:31:45.488973	NOTIFIED long match 8196103081 (8x:xx) Team Spirit vs Chimera Esports [DreamLeague Season 25 powered by Intel]
+2026-03-26 16:31:46.378632	NOTIFIED long match 8197456312 (6x:xx) Team Spirit vs PARIVISION [DreamLeague Season 25 powered by Intel]
+2026-03-26 16:31:47.171218	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.771, "global": false}
+2026-03-26 16:31:47.461122	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.483, "global": false}
+2026-03-26 16:31:47.814609	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:31:48.135512	NOTIFIED long match 8209507662 (6x:xx) Yellow Submarine vs Nigma Galaxy [PGL Wallachia 2025 Season 3]
+2026-03-26 16:31:48.927135	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 1.014, "global": false}
+2026-03-26 16:31:49.319560	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.63, "global": false}
+2026-03-26 16:31:49.721404	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:31:50.109614	NOTIFIED long match 8213792937 (6x:xx) Team Liquid vs Xtreme Gaming [PGL Wallachia 2025 Season 3]
+2026-03-26 16:31:50.915837	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 1.026, "global": false}
+2026-03-26 16:31:51.257813	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.684, "global": false}
+2026-03-26 16:31:51.651131	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:31:52.041649	NOTIFIED long match 8225675994 (6x:xx) Team Spirit vs BOOM Esports [FISSURE Universe Episode 4]
+2026-03-26 16:31:52.822655	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 1.118, "global": false}
+2026-03-26 16:31:53.139999	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.803, "global": false}
+2026-03-26 16:31:53.431685	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.51, "global": false}
+2026-03-26 16:31:53.739892	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:31:54.078452	NOTIFIED long match 8231213673 (6x:xx) Team Spirit vs BetBoom Team [FISSURE Universe Episode 4]
+2026-03-26 16:31:54.864450	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 1.082, "global": false}
+2026-03-26 16:31:55.171419	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.772, "global": false}
+2026-03-26 16:31:55.571827	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.376, "global": false}
+2026-03-26 16:31:55.889509	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:31:56.221746	NOTIFIED long match 8236031287 (6x:xx) Radiant vs Gatitos Persas [DreamLeague Season 26 Qualifiers]
+2026-03-26 16:31:57.060389	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.884, "global": false}
+2026-03-26 16:31:57.422041	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.524, "global": false}
+2026-03-26 16:31:57.721462	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:31:58.068876	NOTIFIED long match 8240779269 (7x:xx) HEROIC vs Mosquito Clan [DreamLeague Season 26 Qualifiers]
+2026-03-26 16:31:58.861996	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 1.084, "global": false}
+2026-03-26 16:31:59.185654	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.753, "global": false}
+2026-03-26 16:31:59.488632	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.454, "global": false}
+2026-03-26 16:31:59.810310	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:32:00.274875	NOTIFIED long match 8261208455 (6x:xx) Talon vs Team Falcons [PGL Wallachia 2025 Season 4]
+2026-03-26 16:32:01.069211	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.872, "global": false}
+2026-03-26 16:32:01.357124	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.588, "global": false}
+2026-03-26 16:32:01.722089	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:32:02.047553	NOTIFIED long match 8271320048 (7x:xx) PARIVISION vs Team Liquid [PGL Wallachia 2025 Season 4]
+2026-03-26 16:32:02.831755	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 1.112, "global": false}
+2026-03-26 16:32:03.156434	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.788, "global": false}
+2026-03-26 16:32:03.454861	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.493, "global": false}
+2026-03-26 16:32:03.775362	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:32:04.173019	NOTIFIED long match 8292842706 (6x:xx) OG vs Virtus.pro [FISSURE Universe Episode 5]
+2026-03-26 16:32:04.989932	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.955, "global": false}
+2026-03-26 16:32:05.303017	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.64, "global": false}
+2026-03-26 16:32:05.644400	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:32:05.991575	NOTIFIED long match 8299323927 (6x:xx) BetBoom Team vs Team Liquid [DreamLeague Season 26]
+2026-03-26 16:32:06.764432	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 1.176, "global": false}
+2026-03-26 16:32:07.087031	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.855, "global": false}
+2026-03-26 16:32:07.386491	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.556, "global": false}
+2026-03-26 16:32:07.704125	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:32:07.707333	Found 100 unnotified long matches; sent 62 new notifications; failed 38.
+2026-03-26 16:32:07.707965	END discord_notify_long_matches
+2026-03-26 16:33:46.656315	START discord_notify_long_matches
+2026-03-26 16:33:47.173095	NOTIFIED long match 8197912154 (6x:xx) Team Spirit vs Tundra Esports [DreamLeague Season 25 powered by Intel]
+2026-03-26 16:33:47.965531	NOTIFIED long match 8206802365 (7x:xx) Xtreme Gaming vs Team Falcons [PGL Wallachia 2025 Season 3]
+2026-03-26 16:33:48.759552	NOTIFIED long match 8206934001 (6x:xx) Xtreme Gaming vs Team Falcons [PGL Wallachia 2025 Season 3]
+2026-03-26 16:33:49.619835	NOTIFIED long match 8209590208 (6x:xx) Wildcard vs HEROIC [PGL Wallachia 2025 Season 3]
+2026-03-26 16:33:50.476799	NOTIFIED long match 8209728559 (6x:xx) Xtreme Gaming vs Tundra Esports [PGL Wallachia 2025 Season 3]
+2026-03-26 16:33:51.371679	NOTIFIED long match 8209912301 (6x:xx) AVULUS vs Natus Vincere [PGL Wallachia 2025 Season 3]
+2026-03-26 16:33:52.216175	NOTIFIED long match 8214023491 (6x:xx) Team Falcons vs Tundra Esports [PGL Wallachia 2025 Season 3]
+2026-03-26 16:33:53.034515	NOTIFIED long match 8214704203 (7x:xx) Team Spirit vs Xtreme Gaming [PGL Wallachia 2025 Season 3]
+2026-03-26 16:33:53.842055	NOTIFIED long match 8215196222 (7x:xx) Team Liquid vs Team Falcons [PGL Wallachia 2025 Season 3]
+2026-03-26 16:33:54.648317	NOTIFIED long match 8225936115 (6x:xx) Team Liquid vs All Gamers Global [FISSURE Universe Episode 4]
+2026-03-26 16:33:55.437942	NOTIFIED long match 8227599239 (6x:xx) Team Spirit vs Gaimin Gladiators [FISSURE Universe Episode 4]
+2026-03-26 16:33:56.256330	NOTIFIED long match 8229033507 (6x:xx) Team Liquid vs BetBoom Team [FISSURE Universe Episode 4]
+2026-03-26 16:33:57.096528	NOTIFIED long match 8230019329 (8x:xx) Gaimin Gladiators vs 1w Team [FISSURE Universe Episode 4]
+2026-03-26 16:33:57.964307	NOTIFIED long match 8231607962 (6x:xx) Tundra Esports vs Team Falcons [FISSURE Universe Episode 4]
+2026-03-26 16:33:59.018920	NOTIFIED long match 8232589180 (7x:xx) Apes Togetor Strong vs Dire [DreamLeague Season 26 Qualifiers]
+2026-03-26 16:33:59.796848	NOTIFIED long match 8233573522 (6x:xx) TEAM NIMISTER vs Yangon Galacticos [DreamLeague Season 26 Qualifiers]
+2026-03-26 16:34:00.735418	NOTIFIED long match 8234404837 (7x:xx) All Gamers Global vs Team Falcons [FISSURE Universe Episode 4]
+2026-03-26 16:34:01.580126	NOTIFIED long match 8238273105 (6x:xx) 1w Team vs Aurora Gaming [DreamLeague Season 26 Qualifiers]
+2026-03-26 16:34:02.363950	NOTIFIED long match 8238845173 (6x:xx) Passion UA vs Team Secret [DreamLeague Season 26 Qualifiers]
+2026-03-26 16:34:03.299117	NOTIFIED long match 8239090374 (6x:xx) Zero Tenacity vs AVULUS [DreamLeague Season 26 Qualifiers]
+2026-03-26 16:34:04.109426	NOTIFIED long match 8246215175 (6x:xx) AVULUS vs HEROIC [ESL One Raleigh 2025]
+2026-03-26 16:34:04.874370	NOTIFIED long match 8246264697 (6x:xx) Tundra Esports vs AVULUS [ESL One Raleigh 2025]
+2026-03-26 16:34:05.715609	NOTIFIED long match 8252630710 (7x:xx) PARIVISION vs BetBoom Team [ESL One Raleigh 2025]
+2026-03-26 16:34:06.497252	NOTIFIED long match 8253754681 (7x:xx) PARIVISION vs Tundra Esports [ESL One Raleigh 2025]
+2026-03-26 16:34:07.401570	NOTIFIED long match 8264431247 (6x:xx) NAVI Junior vs Nigma Galaxy [PGL Wallachia 2025 Season 4]
+2026-03-26 16:34:08.347075	NOTIFIED long match 8264482418 (7x:xx) Tundra Esports vs Team Falcons [PGL Wallachia 2025 Season 4]
+2026-03-26 16:34:09.269033	NOTIFIED long match 8267884608 (6x:xx) Tundra Esports vs NAVI Junior [PGL Wallachia 2025 Season 4]
+2026-03-26 16:34:10.058827	NOTIFIED long match 8285119302 (7x:xx) Team Spirit vs PARIVISION [SLAM III]
+2026-03-26 16:34:10.893442	NOTIFIED long match 8285634264 (6x:xx) Aurora Gaming vs Xtreme Gaming [SLAM III]
+2026-03-26 16:34:11.771591	NOTIFIED long match 8286728215 (8x:xx) Gaimin Gladiators vs Aurora Gaming [SLAM III]
+2026-03-26 16:34:12.579850	NOTIFIED long match 8287910379 (7x:xx) Team Falcons vs Team Spirit [SLAM III]
+2026-03-26 16:34:13.408284	NOTIFIED long match 8292965033 (6x:xx) Virtus.pro vs OG [FISSURE Universe Episode 5]
+2026-03-26 16:34:14.248503	NOTIFIED long match 8296538811 (7x:xx) Virtus.pro vs Shopify Rebellion [FISSURE Universe Episode 5]
+2026-03-26 16:34:15.192092	NOTIFIED long match 8297048631 (6x:xx) AVULUS vs Runa Team [FISSURE Universe Episode 5]
+2026-03-26 16:34:16.014650	NOTIFIED long match 8301000199 (7x:xx) AVULUS vs Edge [DreamLeague Season 26]
+2026-03-26 16:34:16.834595	NOTIFIED long match 8301766880 (7x:xx) AVULUS vs PARIVISION [DreamLeague Season 26]
+2026-03-26 16:34:17.671225	NOTIFIED long match 8301861641 (6x:xx) Edge vs Team Falcons [DreamLeague Season 26]
+2026-03-26 16:34:18.486754	NOTIFIED long match 8302012922 (6x:xx) BOOM Esports vs Team Liquid [DreamLeague Season 26]
+2026-03-26 16:34:19.414088	NOTIFIED long match 8302182893 (6x:xx) Edge vs FLIPSTER TALON [DreamLeague Season 26]
+2026-03-26 16:34:20.266893	NOTIFIED long match 8302238251 (6x:xx) Team Falcons vs AVULUS [DreamLeague Season 26]
+2026-03-26 16:34:21.213293	NOTIFIED long match 8302303861 (9x:xx) Gaimin Gladiators vs Yakult Brothers [DreamLeague Season 26]
+2026-03-26 16:34:22.065319	NOTIFIED long match 8304347724 (6x:xx) Team Liquid vs Yakult Brothers [DreamLeague Season 26]
+2026-03-26 16:34:23.204360	NOTIFIED long match 8305642400 (6x:xx) Yakult Brothers vs Nigma Galaxy [DreamLeague Season 26]
+2026-03-26 16:34:24.286309	NOTIFIED long match 8305750536 (8x:xx) Yakult Brothers vs Nigma Galaxy [DreamLeague Season 26]
+2026-03-26 16:34:25.120549	NOTIFIED long match 8306200941 (6x:xx) Aurora Gaming vs Team Liquid [DreamLeague Season 26]
+2026-03-26 16:34:25.985751	NOTIFIED long match 8307885147 (6x:xx) Gaimin Gladiators vs Aurora Gaming [DreamLeague Season 26]
+2026-03-26 16:34:26.799287	NOTIFIED long match 8308552131 (8x:xx) Aurora Gaming vs FLIPSTER TALON [DreamLeague Season 26]
+2026-03-26 16:34:27.648181	NOTIFIED long match 8311549729 (7x:xx) BetBoom Team vs FLIPSTER TALON [DreamLeague Season 26]
+2026-03-26 16:34:28.518480	NOTIFIED long match 8315417093 (6x:xx) Aurora Gaming vs FLIPSTER TALON [DreamLeague Season 26]
+2026-03-26 16:34:29.321477	NOTIFIED long match 8319773118 (6x:xx) Hässleholmens BK vs Dire [Esports World Cup 2025 Qualifiers]
+2026-03-26 16:34:29.822002	Found 50 unnotified long matches; sent 50 new notifications; failed 0.
+2026-03-26 16:34:29.822722	END discord_notify_long_matches
+2026-03-26 16:36:02.010916	START discord_notify_long_matches
+2026-03-26 16:36:02.344487	NOTIFIED long match 8319911398 (6x:xx) Radiant vs Dire [Esports World Cup 2025 Qualifiers]
+2026-03-26 16:36:03.257813	NOTIFIED long match 8320306984 (8x:xx) Radiant vs The Chapulines [Esports World Cup 2025 Qualifiers]
+2026-03-26 16:36:04.065668	NOTIFIED long match 8322096501 (7x:xx) Zero Tenacity vs OG [Esports World Cup 2025 Qualifiers]
+2026-03-26 16:36:04.872707	NOTIFIED long match 8322213249 (6x:xx) Quantum vs Aurora Gaming [Road To The International 2025 - Regional Qualifiers Eastern Europe]
+2026-03-26 16:36:05.707875	NOTIFIED long match 8323905816 (6x:xx) MOUZ vs AVULUS [Esports World Cup 2025 Qualifiers]
+2026-03-26 16:36:06.572615	NOTIFIED long match 8324159884 (6x:xx) HEROIC vs Dire [Road To The International 2025 - Regional Qualifiers South America]
+2026-03-26 16:36:07.407812	NOTIFIED long match 8324745387 (7x:xx) Nemiga Gaming vs L1GA TEAM [Road To The International 2025 - Regional Qualifiers Eastern Europe]
+2026-03-26 16:36:08.200317	NOTIFIED long match 8325289152 (6x:xx) Nemiga Gaming vs Dire [Road To The International 2025 - Regional Qualifiers Eastern Europe]
+2026-03-26 16:36:09.025214	NOTIFIED long match 8325311690 (7x:xx) NAVI Junior vs AVULUS [Esports World Cup 2025 Qualifiers]
+2026-03-26 16:36:09.971480	NOTIFIED long match 8325451984 (6x:xx) HEROIC vs Edge [Road To The International 2025 - Regional Qualifiers South America]
+2026-03-26 16:36:10.812310	NOTIFIED long match 8325643721 (7x:xx) Shopify Rebellion vs Wildcard [Esports World Cup 2025 Qualifiers]
+2026-03-26 16:36:11.607801	NOTIFIED long match 8325888948 (6x:xx) BOOM Esports vs KUKUYS [Esports World Cup 2025 Qualifiers]
+2026-03-26 16:36:12.384774	NOTIFIED long match 8326922349 (6x:xx) HEROIC vs OG.LATAM [Road To The International 2025 - Regional Qualifiers South America]
+2026-03-26 16:36:13.182400	NOTIFIED long match 8327213575 (6x:xx) HEROIC vs Edge [Road To The International 2025 - Regional Qualifiers South America]
+2026-03-26 16:36:13.987205	NOTIFIED long match 8327416122 (7x:xx) Yangon Galacticos vs KUKUYS [Esports World Cup 2025 Qualifiers]
+2026-03-26 16:36:14.873798	NOTIFIED long match 8329202073 (6x:xx) Nigma Galaxy vs Virtus.pro [Esports World Cup 2025 Qualifiers]
+2026-03-26 16:36:15.671694	NOTIFIED long match 8330984239 (7x:xx) Shopify Rebellion vs Wildcard [Road To The International 2025 - Regional Qualifiers North America]
+2026-03-26 16:36:16.499015	NOTIFIED long match 8332264981 (7x:xx) Shopify Rebellion vs Wildcard [Road To The International 2025 - Regional Qualifiers North America]
+2026-03-26 16:36:17.488841	NOTIFIED long match 8359658954 (6x:xx) Team Tidebound vs HEROIC [FISSURE Universe Episode 5]
+2026-03-26 16:36:18.251269	NOTIFIED long match 8360095741 (6x:xx) HEROIC vs Aurora Gaming [FISSURE Universe Episode 5]
+2026-03-26 16:36:19.063811	NOTIFIED long match 8366890073 (6x:xx) HEROIC vs Dire [Esports World Cup 2025]
+2026-03-26 16:36:20.001464	NOTIFIED long match 8367574169 (6x:xx) BB Team vs Team Falcons [Esports World Cup 2025]
+2026-03-26 16:36:20.844563	NOTIFIED long match 8367958853 (7x:xx) HEROIC vs Shopify Rebellion [Esports World Cup 2025]
+2026-03-26 16:36:21.643506	NOTIFIED long match 8370461722 (6x:xx) HEROIC vs PVISION [Esports World Cup 2025]
+2026-03-26 16:36:22.587842	NOTIFIED long match 8371404972 (7x:xx) Shopify Rebellion vs Team Yandex [Esports World Cup 2025]
+2026-03-26 16:36:23.382624	NOTIFIED long match 8376447504 (6x:xx) Team Spirit vs Gaimin Gladiators [Esports World Cup 2025]
+2026-03-26 16:36:24.158435	NOTIFIED long match 8379310046 (8x:xx) Team Falcons vs Tundra Esports [Esports World Cup 2025]
+2026-03-26 16:36:25.139465	NOTIFIED long match 8385645088 (7x:xx) Yellow Submarine vs One Move [FISSURE Universe Episode 6]
+2026-03-26 16:36:25.899902	NOTIFIED long match 8391157977 (7x:xx) Virtus.pro vs AVULUS [FISSURE Universe Episode 6]
+2026-03-26 16:36:26.699559	NOTIFIED long match 8395036601 (6x:xx) PVISION vs Nigma Galaxy [Clavision DOTA2 Masters 2025: Snow-Ruyi]
+2026-03-26 16:36:27.481852	NOTIFIED long match 8396812326 (7x:xx) Team Yandex vs BOOM Esports [Clavision DOTA2 Masters 2025: Snow-Ruyi]
+2026-03-26 16:36:28.281731	NOTIFIED long match 8397762037 (6x:xx) BOOM Esports vs BB Team [Clavision DOTA2 Masters 2025: Snow-Ruyi]
+2026-03-26 16:36:29.136188	NOTIFIED long match 8397916998 (6x:xx) Nigma Galaxy vs Tundra Esports [Clavision DOTA2 Masters 2025: Snow-Ruyi]
+2026-03-26 16:36:29.932077	NOTIFIED long match 8430058794 (6x:xx) PVISION vs Team Falcons [FISSURE Universe Episode 6]
+2026-03-26 16:36:30.754026	NOTIFIED long match 8446401276 (7x:xx) Team Nemesis vs Team Falcons [The International 2025]
+2026-03-26 16:36:31.553403	NOTIFIED long match 8446403094 (6x:xx) Team Liquid vs BOOM Esports [The International 2025]
+2026-03-26 16:36:32.434532	NOTIFIED long match 8446415005 (6x:xx) HEROIC vs PVISION [The International 2025]
+2026-03-26 16:36:33.263381	NOTIFIED long match 8446490976 (6x:xx) Nigma Galaxy vs BB Team [The International 2025]
+2026-03-26 16:36:34.133934	NOTIFIED long match 8446611170 (6x:xx) BB Team vs Nigma Galaxy [The International 2025]
+2026-03-26 16:36:34.980288	NOTIFIED long match 8457023058 (6x:xx) BB Team vs Nigma Galaxy [The International 2025]
+2026-03-26 16:36:35.829681	NOTIFIED long match 8460164236 (6x:xx) PVISION vs Team Falcons [The International 2025]
+2026-03-26 16:36:36.745029	NOTIFIED long match 8460339590 (6x:xx) Xtreme Gaming vs BB Team [The International 2025]
+2026-03-26 16:36:37.630002	NOTIFIED long match 8460471023 (6x:xx) Xtreme Gaming vs BB Team [The International 2025]
+2026-03-26 16:36:38.580348	NOTIFIED long match 8461254706 (6x:xx) Xtreme Gaming vs PVISION [The International 2025]
+2026-03-26 16:36:39.466543	NOTIFIED long match 8475029521 (7x:xx) Radiant vs Dire [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:36:40.278447	NOTIFIED long match 8476106413 (6x:xx) L1GA TEAM vs Dire [FISSURE PLAYGROUND 2 - Closed Qualifiers - EEU]
+2026-03-26 16:36:42.912662	NOTIFIED long match 8476548016 (6x:xx) Nemiga Gaming vs L1GA TEAM [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:36:43.681504	NOTIFIED long match 8477038713 (6x:xx) Radiant vs HunterZ [FISSURE PLAYGROUND 2 - Closed Qualifiers - Americas]
+2026-03-26 16:36:44.537600	NOTIFIED long match 8477875005 (7x:xx) OG vs Zero Tenacity [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:36:45.308140	NOTIFIED long match 8478057830 (6x:xx) Execration vs Yangon Galacticos [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:36:45.808672	Found 50 unnotified long matches; sent 50 new notifications; failed 0.
+2026-03-26 16:36:45.809381	END discord_notify_long_matches
+2026-03-26 16:38:23.826363	START discord_notify_long_matches
+2026-03-26 16:38:24.306954	NOTIFIED long match 8478587904 (6x:xx) 1w Team vs L1GA TEAM [FISSURE PLAYGROUND 2 - Closed Qualifiers - EEU]
+2026-03-26 16:38:25.182491	NOTIFIED long match 8478597521 (7x:xx) Radiant vs OG.LATAM [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:38:26.000785	NOTIFIED long match 8478848560 (6x:xx) Radiant vs Wildcard [FISSURE PLAYGROUND 2 - Closed Qualifiers - Americas]
+2026-03-26 16:38:26.848047	NOTIFIED long match 8479181095 (6x:xx) Team Nemesis vs Dire [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:38:27.721226	NOTIFIED long match 8479257484 (6x:xx) Radiant vs Yangon Galacticos [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:38:28.557679	NOTIFIED long match 8479697756 (7x:xx) Passion UA vs Dire [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:38:29.380558	NOTIFIED long match 8480536626 (6x:xx) HunterZ vs Las Foking Maquinas del Gaming [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:38:30.191980	NOTIFIED long match 8480640915 (6x:xx) HunterZ vs Las Foking Maquinas del Gaming [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:38:31.005502	NOTIFIED long match 8480829860 (6x:xx) Team Aureus vs BOOM Esports [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:38:31.832680	NOTIFIED long match 8480868353 (6x:xx) 1w Team vs eSpoiled [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:38:32.717797	NOTIFIED long match 8481081625 (6x:xx) Yakult Brothers vs hong shi zhang zui [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:38:33.535185	NOTIFIED long match 8481194192 (7x:xx) Kalmychata vs OG [RES Unchained - A Blast Dota Slam IV Qualifier EU]
+2026-03-26 16:38:34.389582	NOTIFIED long match 8481330070 (7x:xx) BOOM Esports vs Team Nemesis [RES Unchained - A Blast Dota Slam IV Qualifier SEA]
+2026-03-26 16:38:35.449768	NOTIFIED long match 8481364746 (7x:xx) BY_OWL TEAM vs Team TPABOMAH [BetBoom Streamers Battle x Динамо 11]
+2026-03-26 16:38:36.333555	NOTIFIED long match 8481364123 (9x:xx) Cloud Rising vs hong shi zhang zui [BLAST Slam IV: China Closed Qualifier]
+2026-03-26 16:38:37.215484	NOTIFIED long match 8482151059 (6x:xx) Chimpanzini Bananini vs OG.LATAM [DreamLeague Season 27 Qualifiers]
+2026-03-26 16:38:38.070522	NOTIFIED long match 8482817679 (6x:xx) GOODWIN TEAM vs Dire [BetBoom Streamers Battle x Динамо 11]
+2026-03-26 16:38:38.930224	NOTIFIED long match 8483680243 (6x:xx) Wildcard vs Perrito Panzon [FISSURE PLAYGROUND 2 - Closed Qualifiers - Americas]
+2026-03-26 16:38:39.837629	NOTIFIED long match 8483848365 (7x:xx) Wildcard vs Perrito Panzon [FISSURE PLAYGROUND 2 - Closed Qualifiers - Americas]
+2026-03-26 16:38:40.707703	NOTIFIED long match 8484212853 (1xx:xx) BOOM Esports vs Team Aureus [RES Unchained - A Blast Dota Slam IV Qualifier SEA]
+2026-03-26 16:38:41.509435	NOTIFIED long match 8484736119 (6x:xx) Yakult Brothers vs tearlaments [BLAST Slam IV: China Closed Qualifier]
+2026-03-26 16:38:42.317560	NOTIFIED long match 8486315560 (7x:xx) REKONIX vs Team Nemesis [FISSURE PLAYGROUND 2 - Closed Qualifiers - China]
+2026-03-26 16:38:43.169607	NOTIFIED long match 8487940525 (7x:xx) Pipsqueak+4 vs OG [FISSURE PLAYGROUND 2 - Closed Qualifiers - WEU+EEU]
+2026-03-26 16:38:44.011673	NOTIFIED long match 8488657958 (6x:xx) AVULUS vs Virtus.pro [FISSURE PLAYGROUND 2 - Closed Qualifiers - WEU+EEU]
+2026-03-26 16:38:44.959946	NOTIFIED long match 8490485438 (6x:xx) TAILUNG MAFIA vs Perrito Panzon [FISSURE PLAYGROUND 2 - Closed Qualifiers - Americas (SA)]
+2026-03-26 16:38:45.859818	NOTIFIED long match 8491194644 (6x:xx) Virtus.pro vs AVULUS [PGL Wallachia Season #6 WEU Closed Qualifiers]
+2026-03-26 16:38:46.786116	NOTIFIED long match 8492608016 (6x:xx) Bikini Bottom vs 1w Team [PGL Wallachia Season #6 EEU Closed Qualifiers]
+2026-03-26 16:38:47.858878	NOTIFIED long match 8493644570 (6x:xx) YBN Team  vs BY_OWL TEAM [BetBoom Streamers Battle x Динамо 11]
+2026-03-26 16:38:48.857491	NOTIFIED long match 8494172720 (6x:xx) BOOM Esports vs Team Nemesis [PGL Wallachia Season #6 SEA Closed Qualifiers]
+2026-03-26 16:38:49.954843	NOTIFIED long match 8494660292 (6x:xx) VP.Prodigy vs eSpoiled [CCT Dota 2 Season 2 Series 5]
+2026-03-26 16:38:50.867667	NOTIFIED long match 8496014455 (6x:xx) Execration vs BOOM Esports [PGL Wallachia Season #6 SEA Closed Qualifiers]
+2026-03-26 16:38:51.997013	NOTIFIED long match 8497472729 (6x:xx) HunterZ vs TAILUNG MAFIA [PGL Wallachia Season #6 AMER Closed Qualifiers]
+2026-03-26 16:38:54.726004	NOTIFIED long match 8499872227 (6x:xx) Virtus.pro vs MOUZ [FISSURE Universe Episode 7]
+2026-03-26 16:38:55.686240	NOTIFIED long match 8504162732 (6x:xx) Inner Circle vs eSpoiled [CCT Dota 2 Season 2 Series 5]
+2026-03-26 16:38:56.614693	NOTIFIED long match 8512866926 (6x:xx) Tundra Esports vs Aurora Gaming [SLAM IV]
+2026-03-26 16:38:57.547435	NOTIFIED long match 8514117469 (6x:xx) Team Spirit vs Team Falcons [SLAM IV]
+2026-03-26 16:38:58.443724	NOTIFIED long match 8518915783 (7x:xx) Natus Vincere vs Aurora Gaming [SLAM IV]
+2026-03-26 16:39:01.057076	NOTIFIED long match 8519308618 (7x:xx) HEROIC vs Team Liquid [SLAM IV]
+2026-03-26 16:39:01.877584	NOTIFIED long match 8580879900 (7x:xx) Xtreme Gaming vs Team Yandex [SLAM V]
+2026-03-26 16:39:02.775265	NOTIFIED long match 8598615034 (6x:xx) Team Liquid vs Team Nemesis [DreamLeague Season 27]
+2026-03-26 16:39:03.708419	NOTIFIED long match 8599037388 (6x:xx) Natus Vincere vs Aurora Gaming [DreamLeague Season 27]
+2026-03-26 16:39:04.632696	NOTIFIED long match 8600597239 (7x:xx) HEROIC vs PARIVISION [DreamLeague Season 27]
+2026-03-26 16:39:05.625490	NOTIFIED long match 8600724673 (6x:xx) PARIVISION vs HEROIC [DreamLeague Season 27]
+2026-03-26 16:39:06.505381	NOTIFIED long match 8600768084 (7x:xx) Amaru Gaming vs Team Nemesis [DreamLeague Season 27]
+2026-03-26 16:39:07.604256	NOTIFIED long match 8601823184 (6x:xx) Team Spirit vs Team Liquid [DreamLeague Season 27]
+2026-03-26 16:39:08.544307	NOTIFIED long match 8603199591 (6x:xx) Team Spirit vs OG [DreamLeague Season 27]
+2026-03-26 16:39:09.550232	NOTIFIED long match 8603714760 (7x:xx) 1w Team vs Nigma Galaxy [DreamLeague Season 27]
+2026-03-26 16:39:10.495468	NOTIFIED long match 8605626905 (6x:xx) PARIVISION vs Team Spirit [DreamLeague Season 27]
+2026-03-26 16:39:11.371834	NOTIFIED long match 8606774407 (7x:xx) HEROIC vs 1w Team [DreamLeague Season 27]
+2026-03-26 16:39:12.432290	NOTIFIED long match 8606918837 (6x:xx) 1w Team vs HEROIC [DreamLeague Season 27]
+2026-03-26 16:39:13.310664	NOTIFIED long match 8609085945 (7x:xx) PARIVISION vs Team Falcons [DreamLeague Season 27]
+2026-03-26 16:39:14.167577	NOTIFIED long match 8609256354 (6x:xx) Team Spirit vs Xtreme Gaming [DreamLeague Season 27]
+2026-03-26 16:39:15.002850	NOTIFIED long match 8611101416 (6x:xx) Team Yandex vs Tundra Esports [DreamLeague Season 27]
+2026-03-26 16:39:15.858272	NOTIFIED long match 8614840952 (6x:xx) Team Spirit vs PARIVISION [DreamLeague Season 27]
+2026-03-26 16:39:16.687457	NOTIFIED long match 8658295824 (6x:xx) 1w Team vs AVULUS [FISSURE Universe Episode 8]
+2026-03-26 16:39:17.777316	NOTIFIED long match 8660862355 (6x:xx) AVULUS vs 1w Team [FISSURE Universe Episode 8]
+2026-03-26 16:39:18.678817	NOTIFIED long match 8665387602 (8x:xx) Virtus.pro vs _PowerRangers [FISSURE Universe Episode 8]
+2026-03-26 16:39:19.604349	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.63, "global": false}
+2026-03-26 16:39:19.936831	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:39:20.368054	NOTIFIED long match 8672345104 (6x:xx) Team Yandex vs Team Liquid [FISSURE Universe Episode 8]
+2026-03-26 16:39:21.294170	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.929, "global": false}
+2026-03-26 16:39:21.745244	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.478, "global": false}
+2026-03-26 16:39:22.125126	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:39:22.766428	NOTIFIED long match 8678799687 (6x:xx) Team Yandex vs Team Falcons [BLAST SLAM VI]
+2026-03-26 16:39:23.609471	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.613, "global": false}
+2026-03-26 16:39:23.977532	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:39:24.401394	NOTIFIED long match 8691341665 (6x:xx) Team Yandex vs Natus Vincere [BLAST SLAM VI]
+2026-03-26 16:39:25.319371	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.903, "global": false}
+2026-03-26 16:39:25.761936	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.488, "global": false}
+2026-03-26 16:39:26.170812	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:39:26.611876	NOTIFIED long match 8697754563 (6x:xx) Xtreme Gaming vs Team Falcons [DreamLeague Season 28]
+2026-03-26 16:39:27.449128	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.774, "global": false}
+2026-03-26 16:39:27.808200	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.413, "global": false}
+2026-03-26 16:39:28.196644	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:39:28.573706	NOTIFIED long match 8703682176 (6x:xx) Tundra Esports vs Aurora Gaming [DreamLeague Season 28]
+2026-03-26 16:39:29.425868	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.796, "global": false}
+2026-03-26 16:39:29.842315	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.381, "global": false}
+2026-03-26 16:39:30.193545	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:39:30.593272	NOTIFIED long match 8720719328 (6x:xx) Team Nemesis vs Xtreme Gaming [PGL Wallachia 2026 Season 7]
+2026-03-26 16:39:31.444782	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.776, "global": false}
+2026-03-26 16:39:31.856791	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.369, "global": false}
+2026-03-26 16:39:32.344644	NOTIFIED long match 8728655795 (6x:xx) BetBoom Team vs Team Yandex [PGL Wallachia 2026 Season 7]
+2026-03-26 16:39:33.239304	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.978, "global": false}
+2026-03-26 16:39:33.579116	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.646, "global": false}
+2026-03-26 16:39:33.994407	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:39:34.488345	NOTIFIED long match 8730561637 (7x:xx) Team Yandex vs Team Liquid [PGL Wallachia 2026 Season 7]
+2026-03-26 16:39:35.349066	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.878, "global": false}
+2026-03-26 16:39:35.707273	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.512, "global": false}
+2026-03-26 16:39:36.086323	ERROR: Discord webhook HTTP 429: {"message": "The resource is being rate limited.", "retry_after": 0.3, "global": false}
+2026-03-26 16:39:36.089579	Found 89 unnotified long matches; sent 65 new notifications; failed 24.
+2026-03-26 16:39:36.090201	END discord_notify_long_matches
+2026-03-26 16:41:01.293444	START discord_notify_long_matches
+2026-03-26 16:41:01.645823	NOTIFIED long match 8666473326 (6x:xx) StrongBoys vs Inner Circle x Insanity [FISSURE Universe Episode 8]
+2026-03-26 16:41:02.664446	NOTIFIED long match 8670959477 (6x:xx) BetBoom Team vs _PowerRangers [FISSURE Universe Episode 8]
+2026-03-26 16:41:03.606714	NOTIFIED long match 8675768384 (7x:xx) Tundra Esports vs REKONIX [BLAST SLAM VI]
+2026-03-26 16:41:04.469200	NOTIFIED long match 8677092883 (8x:xx) Team Liquid vs Natus Vincere [BLAST SLAM VI]
+2026-03-26 16:41:05.295744	NOTIFIED long match 8677377717 (6x:xx) Team Falcons vs Team Liquid [BLAST SLAM VI]
+2026-03-26 16:41:06.202467	NOTIFIED long match 8679911370 (6x:xx) HEROIC vs REKONIX [BLAST SLAM VI]
+2026-03-26 16:41:06.992743	NOTIFIED long match 8690871387 (8x:xx) Team Liquid vs OG [BLAST SLAM VI]
+2026-03-26 16:41:07.854361	NOTIFIED long match 8692497249 (6x:xx) Team Liquid vs Natus Vincere [BLAST SLAM VI]
+2026-03-26 16:41:08.778085	NOTIFIED long match 8695336368 (7x:xx) Xtreme Gaming vs Tundra Esports [DreamLeague Season 28]
+2026-03-26 16:41:09.643124	NOTIFIED long match 8697089342 (6x:xx) Team Liquid vs BetBoom Team [DreamLeague Season 28]
+2026-03-26 16:41:10.449729	NOTIFIED long match 8698436662 (6x:xx) BetBoom Team vs OG [DreamLeague Season 28]
+2026-03-26 16:41:11.227225	NOTIFIED long match 8698519674 (6x:xx) Tundra Esports vs Team Falcons [DreamLeague Season 28]
+2026-03-26 16:41:12.166810	NOTIFIED long match 8698996024 (6x:xx) OG vs BetBoom Team [DreamLeague Season 28]
+2026-03-26 16:41:13.198629	NOTIFIED long match 8704672982 (6x:xx) BetBoom Team vs PARIVISION [DreamLeague Season 28]
+2026-03-26 16:41:14.288701	NOTIFIED long match 8708807338 (6x:xx) Xtreme Gaming vs Team Falcons [DreamLeague Season 28]
+2026-03-26 16:41:15.272578	NOTIFIED long match 8720605628 (6x:xx) Team Nemesis vs Xtreme Gaming [PGL Wallachia 2026 Season 7]
+2026-03-26 16:41:16.065622	NOTIFIED long match 8720994008 (7x:xx) PARIVISION vs Natus Vincere [PGL Wallachia 2026 Season 7]
+2026-03-26 16:41:16.933370	NOTIFIED long match 8728480115 (7x:xx) Team Liquid vs HEROIC [PGL Wallachia 2026 Season 7]
+2026-03-26 16:41:17.736041	NOTIFIED long match 8729846134 (7x:xx) BetBoom Team vs Team Liquid [PGL Wallachia 2026 Season 7]
+2026-03-26 16:41:18.551726	NOTIFIED long match 8729970931 (8x:xx) BetBoom Team vs Team Liquid [PGL Wallachia 2026 Season 7]
+2026-03-26 16:41:19.423324	NOTIFIED long match 8730121026 (6x:xx) BetBoom Team vs Team Liquid [PGL Wallachia 2026 Season 7]
+2026-03-26 16:41:20.264664	NOTIFIED long match 8739341590 (6x:xx) GamerLegion vs MOUZ [ESL One Birmingham 2026]
+2026-03-26 16:41:21.036712	NOTIFIED long match 8742124178 (6x:xx) Tundra Esports vs Yakult Brothers [ESL One Birmingham 2026]
+2026-03-26 16:41:21.834936	NOTIFIED long match 8742491783 (6x:xx) Xtreme Gaming vs Team Spirit [ESL One Birmingham 2026]
+2026-03-26 16:41:22.335458	Found 24 unnotified long matches; sent 24 new notifications; failed 0.
+2026-03-26 16:41:22.336068	END discord_notify_long_matches
+2026-03-26 16:41:45.928056	START discord_notify_long_matches
+2026-03-26 16:41:45.928999	Found 0 unnotified long matches; sent 0 new notifications.
+2026-03-26 16:41:48.691753	START discord_notify_long_matches
+2026-03-26 16:41:48.692697	Found 0 unnotified long matches; sent 0 new notifications.
+2026-03-26 16:46:01.796734	START discord_notify_long_matches
+2026-03-26 16:46:01.797625	Found 0 unnotified long matches; sent 0 new notifications.
+2026-03-26 16:51:01.414988	START discord_notify_long_matches
+2026-03-26 16:51:01.415894	Found 0 unnotified long matches; sent 0 new notifications.
+2026-03-26 16:53:18.721186	START discord_notify_long_matches
+2026-03-26 16:53:18.722267	Found 0 unnotified long matches; sent 0 new notifications.
+2026-03-26 16:54:04.400792	START discord_notify_long_matches
+2026-03-26 16:54:04.401726	Found 0 unnotified long matches; sent 0 new notifications.
+2026-03-26 16:54:04.401871	END discord_notify_long_matches
