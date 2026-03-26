@@ -8,7 +8,7 @@ from pathlib import Path
 # The purpose of this file is to run hourly, scan for new games, and add any new games to dota.db AND data/{year}.jsonl
 
 year = datetime.now().year
-log_path = "/home/tankionlinefirstseargent/projects/dota-website/backend/log.txt"
+log_path = "/home/tankionlinefirstseargent/projects/dota-website/backend/dotascript_log.txt"
 data_dir = "/home/tankionlinefirstseargent/projects/dota-website/backend/data"
 dota_db_path = f"{data_dir}/dota.db"
 jsonl_path = f"{data_dir}/{year}.jsonl"
