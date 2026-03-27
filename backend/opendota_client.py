@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 opendota_client.py
 
@@ -19,7 +20,7 @@ class OpenDotaClient:
     Lightweight API client for OpenDota.
 
     This wraps a requests.Session so your scripts can share common headers,
-    API key handling, timeouts, and request helpers.
+    optional API key usage, timeouts, and request helpers.
     """
 
     def __init__(
@@ -39,10 +40,11 @@ class OpenDotaClient:
             user_agent: User-Agent header sent with requests.
             sleep_seconds: Optional delay after each successful request.
             on_successful_request: Optional callback run once after each
-                successful API request. This is useful for tracking persistent
-                API usage in the database.
+                successful API request that used the API key. This is useful
+                for tracking persistent paid API usage in the database.
         """
         self.base_url = "https://api.opendota.com/api"
+        self.api_key = api_key
         self.timeout = timeout
         self.sleep_seconds = sleep_seconds
         self.on_successful_request = on_successful_request
@@ -52,32 +54,45 @@ class OpenDotaClient:
             "User-Agent": user_agent,
         })
 
-        # OpenDota commonly supports api_key as a query parameter.
-        # This keeps all requests automatically authenticated.
-        if api_key:
-            self.session.params = {"api_key": api_key}
-
-    def _request(self, path: str, params: Optional[dict[str, Any]] = None) -> Any:
+    def _request(
+        self,
+        path: str,
+        params: Optional[dict[str, Any]] = None,
+        use_api_key: bool = False,
+    ) -> Any:
         """
         Make a GET request to an OpenDota API path and return parsed JSON.
 
         Args:
             path: API path beginning with a slash, such as '/proMatches'.
             params: Optional query parameter dictionary.
+            use_api_key: Whether to include the API key on this request.
 
         Returns:
             Parsed JSON response content.
 
         Raises:
+            ValueError: If use_api_key=True but no API key is configured.
             requests.HTTPError: If the response is not successful.
             requests.RequestException: For connection, timeout, or other request issues.
         """
         url = f"{self.base_url}{path}"
-        response = self.session.get(url, params=params, timeout=self.timeout)
+        final_params = dict(params or {})
+
+        if use_api_key:
+            if not self.api_key:
+                raise ValueError("use_api_key=True but no API key is configured.")
+            final_params["api_key"] = self.api_key
+
+        response = self.session.get(
+            url,
+            params=final_params or None,
+            timeout=self.timeout,
+        )
         response.raise_for_status()
 
-        # Only count the request after it succeeded.
-        if self.on_successful_request is not None:
+        # Only count the request after it succeeded, and only if it used the key.
+        if use_api_key and self.on_successful_request is not None:
             self.on_successful_request()
 
         if self.sleep_seconds > 0:
@@ -85,13 +100,18 @@ class OpenDotaClient:
 
         return response.json()
 
-    def get_pro_matches(self, less_than_match_id: Optional[int] = None) -> list[dict]:
+    def get_pro_matches(
+        self,
+        less_than_match_id: Optional[int] = None,
+        use_api_key: bool = False,
+    ) -> list[dict]:
         """
         Fetch a page of pro matches from /proMatches.
 
         Args:
             less_than_match_id: Optional pagination value. When provided,
                 OpenDota returns matches older than this match ID.
+            use_api_key: Whether to include the API key on this request.
 
         Returns:
             A list of pro match summary dictionaries.
@@ -100,20 +120,32 @@ class OpenDotaClient:
         if less_than_match_id is not None:
             params["less_than_match_id"] = less_than_match_id
 
-        data = self._request("/proMatches", params=params or None)
+        data = self._request(
+            "/proMatches",
+            params=params or None,
+            use_api_key=use_api_key,
+        )
         return data if isinstance(data, list) else []
 
-    def get_match(self, match_id: int) -> dict:
+    def get_match(
+        self,
+        match_id: int,
+        use_api_key: bool = False,
+    ) -> dict:
         """
         Fetch full detail for a single match from /matches/{match_id}.
 
         Args:
             match_id: OpenDota match ID.
+            use_api_key: Whether to include the API key on this request.
 
         Returns:
             A dictionary containing the full match payload.
         """
-        data = self._request(f"/matches/{match_id}")
+        data = self._request(
+            f"/matches/{match_id}",
+            use_api_key=use_api_key,
+        )
         return data if isinstance(data, dict) else {}
 
     def get_player_matches(
@@ -123,6 +155,7 @@ class OpenDotaClient:
         offset: Optional[int] = None,
         lobby_type: Optional[int] = None,
         significant: Optional[int] = None,
+        use_api_key: bool = False,
     ) -> list[dict]:
         """
         Fetch match history for a player from /players/{account_id}/matches.
@@ -133,6 +166,7 @@ class OpenDotaClient:
             offset: Optional offset for pagination.
             lobby_type: Optional lobby type filter.
             significant: Optional OpenDota significance filter.
+            use_api_key: Whether to include the API key on this request.
 
         Returns:
             A list of match history dictionaries.
@@ -148,7 +182,11 @@ class OpenDotaClient:
         if significant is not None:
             params["significant"] = significant
 
-        data = self._request(f"/players/{account_id}/matches", params=params or None)
+        data = self._request(
+            f"/players/{account_id}/matches",
+            params=params or None,
+            use_api_key=use_api_key,
+        )
         return data if isinstance(data, list) else []
 
     def close(self) -> None:

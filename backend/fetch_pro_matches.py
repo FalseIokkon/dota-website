@@ -25,7 +25,7 @@ from opendota_client import OpenDotaClient
 BACKEND_PATH = Path(BACKEND_DIR)
 DATA_PATH = Path(DATA_DIR)
 
-LOG_PATH = BACKEND_PATH / "fetch_pro_matches_log.txt"
+LOG_PATH = BACKEND_PATH / "fetch_pro_matches.log"
 DB_PATH = DATA_PATH / "dota.db"
 
 
@@ -50,7 +50,7 @@ def main() -> None:
     2. Fetch recent pro matches from OpenDota.
     3. Insert all returned match IDs into match_index.
     4. Insert only match rows not already present in pro_matches.
-    5. Track successful API calls in api_usage.
+    5. Track successful paid API calls in api_usage when applicable.
     6. Log how many were fetched, new, existing, skipped, and monthly API total.
 
     This script does not fetch /matches/{match_id} details.
@@ -58,10 +58,7 @@ def main() -> None:
     log_line("START fetch_pro_matches")
     DATA_PATH.mkdir(parents=True, exist_ok=True)
 
-    api_key = OPENDOTA_API_KEY
-    if not api_key:
-        log_line("CONFIG ERROR: OPENDOTA_API_KEY is not set")
-        raise RuntimeError("OPENDOTA_API_KEY is not set")
+    api_key = OPENDOTA_API_KEY or None
 
     conn = connect_db(str(DB_PATH))
     create_tables(conn)
@@ -69,6 +66,7 @@ def main() -> None:
     def record_api_call() -> None:
         """
         Increment the persisted OpenDota API usage counter for the current billing period.
+        Only paid requests should trigger this callback.
         """
         increment_api_usage(conn, provider="opendota", count=1)
 
@@ -81,14 +79,13 @@ def main() -> None:
     )
 
     try:
-        pro_matches = client.get_pro_matches()
+        pro_matches = client.get_pro_matches()  # free request
 
         if not pro_matches:
             monthly_calls = get_api_usage(conn, provider="opendota")
             log_line(f"No pro matches returned from API. month_api_calls {monthly_calls}.")
             return
 
-        # Ensure every valid returned match_id exists in match_index.
         match_ids = [
             match["match_id"]
             for match in pro_matches

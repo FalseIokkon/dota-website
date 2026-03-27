@@ -27,7 +27,7 @@ BACKEND_PATH = Path(BACKEND_DIR)
 DATA_PATH = Path(DATA_DIR)
 
 DB_PATH = DATA_PATH / "dota.db"
-LOG_PATH = BACKEND_PATH / "discord_notify_long_matches.txt"
+LOG_PATH = BACKEND_PATH / "discord_notify_long_matches.log"
 TOURNAMENT_LIST_PATH = BACKEND_PATH / "tournament_list.txt"
 
 LONG_SECONDS = 3600

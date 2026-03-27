@@ -26,10 +26,10 @@ from opendota_client import OpenDotaClient
 BACKEND_PATH = Path(BACKEND_DIR)
 DATA_PATH = Path(DATA_DIR)
 
-LOG_PATH = BACKEND_PATH / "fetch_match_details_log.txt"
+LOG_PATH = BACKEND_PATH / "fetch_match_details.log"
 DB_PATH = DATA_PATH / "dota.db"
 
-MAX_MATCH_DETAILS_PER_RUN = 25
+MAX_MATCH_DETAILS_PER_RUN = 15
 
 
 def log_line(message: str) -> None:
@@ -53,16 +53,13 @@ def main() -> None:
     2. Find newest match IDs present in match_index but missing from matches.
     3. Fetch up to MAX_MATCH_DETAILS_PER_RUN full match payloads.
     4. Store selected columns plus the full JSON payload in matches.
-    5. Track successful API usage in api_usage.
+    5. Track successful paid API usage in api_usage when applicable.
     6. Log the result in a format similar to fetch_pro_matches.py.
     """
     log_line("START fetch_match_details")
     DATA_PATH.mkdir(parents=True, exist_ok=True)
 
-    api_key = OPENDOTA_API_KEY
-    if not api_key:
-        log_line("CONFIG ERROR: OPENDOTA_API_KEY is not set")
-        raise RuntimeError("OPENDOTA_API_KEY is not set")
+    api_key = OPENDOTA_API_KEY or None
 
     conn = connect_db(str(DB_PATH))
     create_tables(conn)
@@ -70,6 +67,7 @@ def main() -> None:
     def record_api_call() -> None:
         """
         Increment the persisted OpenDota API usage counter for the current billing period.
+        Only paid requests should trigger this callback.
         """
         increment_api_usage(conn, provider="opendota", count=1)
 
@@ -77,7 +75,7 @@ def main() -> None:
         api_key=api_key,
         timeout=30,
         user_agent="dota-website-bot/1.0",
-        sleep_seconds=0.0,
+        sleep_seconds=0.5,
         on_successful_request=record_api_call,
     )
 
@@ -105,7 +103,7 @@ def main() -> None:
                     existing_count += 1
                     continue
 
-                detail = client.get_match(match_id)
+                detail = client.get_match(match_id)  # free request
 
                 if not detail or not isinstance(detail, dict):
                     failed_count += 1
