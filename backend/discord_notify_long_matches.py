@@ -30,7 +30,7 @@ DB_PATH = DATA_PATH / "dota.db"
 LOG_PATH = BACKEND_PATH / "discord_notify_long_matches.log"
 TOURNAMENT_LIST_PATH = BACKEND_PATH / "tournament_list.txt"
 
-LONG_SECONDS = 3600
+LONG_SECONDS = 3000
 MAX_NOTIFICATIONS_PER_RUN = 50
 
 

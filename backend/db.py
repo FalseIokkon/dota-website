@@ -161,7 +161,6 @@ def create_tables(conn: sqlite3.Connection) -> None:
             );
         """)
 
-
 def insert_match_index(conn: sqlite3.Connection, match_id: int) -> None:
     """
     Insert a match ID into the universal registry if it is not already present.
@@ -175,7 +174,6 @@ def insert_match_index(conn: sqlite3.Connection, match_id: int) -> None:
             INSERT OR IGNORE INTO match_index (match_id)
             VALUES (?);
         """, (match_id,))
-
 
 def insert_many_match_index(conn: sqlite3.Connection, match_ids: Iterable[int]) -> None:
     """
@@ -196,7 +194,6 @@ def insert_many_match_index(conn: sqlite3.Connection, match_ids: Iterable[int]) 
             INSERT OR IGNORE INTO match_index (match_id)
             VALUES (?);
         """, rows)
-
 
 def upsert_pro_match(conn: sqlite3.Connection, match: dict) -> None:
     """
@@ -277,7 +274,6 @@ def upsert_match_detail(conn: sqlite3.Connection, detail: dict, payload_json: st
             payload_json,
         ))
 
-
 def get_missing_match_detail_ids(
     conn: sqlite3.Connection,
     limit: Optional[int] = None,
@@ -311,7 +307,6 @@ def get_missing_match_detail_ids(
     rows = conn.execute(sql, params).fetchall()
     return [row[0] for row in rows]
 
-
 def get_missing_pro_match_detail_ids(
     conn: sqlite3.Connection,
     limit: Optional[int] = None,
@@ -344,7 +339,6 @@ def get_missing_pro_match_detail_ids(
     rows = conn.execute(sql, params).fetchall()
     return [row[0] for row in rows]
 
-
 def match_detail_exists(conn: sqlite3.Connection, match_id: int) -> bool:
     """
     Check whether a full match detail row already exists.
@@ -363,7 +357,6 @@ def match_detail_exists(conn: sqlite3.Connection, match_id: int) -> bool:
         LIMIT 1;
     """, (match_id,)).fetchone()
     return row is not None
-
 
 def pro_match_exists(conn: sqlite3.Connection, match_id: int) -> bool:
     """
@@ -428,7 +421,6 @@ def increment_api_usage(
               updated_at = CURRENT_TIMESTAMP;
         """, (provider, billing_period, count))
 
-
 def get_api_usage(
     conn: sqlite3.Connection,
     provider: str,
@@ -455,25 +447,6 @@ def get_api_usage(
     """, (provider, billing_period)).fetchone()
 
     return int(row[0]) if row else 0
-
-def match_detail_exists(conn: sqlite3.Connection, match_id: int) -> bool:
-    """
-    Check whether a full match detail row already exists.
-
-    Args:
-        conn: Open SQLite connection.
-        match_id: The OpenDota match ID.
-
-    Returns:
-        True if the match already exists in the matches table, else False.
-    """
-    row = conn.execute("""
-        SELECT 1
-        FROM matches
-        WHERE match_id = ?
-        LIMIT 1;
-    """, (match_id,)).fetchone()
-    return row is not None
 
 def get_unnotified_long_pro_matches(
     conn: sqlite3.Connection,
@@ -509,8 +482,9 @@ def get_unnotified_long_pro_matches(
             league_name
         FROM pro_matches
         WHERE duration > ?
-          AND long_notified_at IS NULL
-          AND league_name IN ({placeholders})
+        AND long_notified_at IS NULL
+        AND league_name IN ({placeholders})
+        AND start_time >= strftime('%s','now','-30 days')
         ORDER BY start_time ASC, match_id ASC
     """
 
