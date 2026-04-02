@@ -1,16 +1,32 @@
 #!/usr/bin/env python3
+"""
+export_tournaments.py
+
+Location:
+    backend/tools/export_tournaments.py
+
+Purpose:
+    Extract all unique tournament (league) names from the database
+    and save them to a text file for later use.
+"""
+
 import sqlite3
+import sys
 from pathlib import Path
 
-# --- Paths ---
-PROJECT_ROOT = Path("/home/tankionlinefirstseargent/projects/dota-website")
-DB_PATH = PROJECT_ROOT / "backend" / "data" / "dota.db"
-OUTPUT_PATH = PROJECT_ROOT / "backend" / "tournaments.txt"
+# Make backend/ importable
+BACKEND_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(BACKEND_ROOT))
+
+from app.config import DB_PATH, PROJECT_ROOT  # noqa: E402
+
+# Output file (you can move this later if desired)
+OUTPUT_PATH = PROJECT_ROOT / "backend" / "tools" / "all_tournaments.txt"
 
 
 def main():
     if not DB_PATH.exists():
-        print(f"❌ Database not found: {DB_PATH}")
+        print(f"[ERROR] Database not found: {DB_PATH}")
         return
 
     conn = sqlite3.connect(DB_PATH)
@@ -18,7 +34,6 @@ def main():
 
     try:
         cursor = conn.cursor()
-
         cursor.execute("""
             SELECT
                 league_name,
@@ -30,7 +45,11 @@ def main():
             ORDER BY last_seen ASC;
         """)
 
-        tournaments = [row["league_name"].strip() for row in cursor.fetchall()]
+        tournaments = [
+            row["league_name"].strip()
+            for row in cursor.fetchall()
+            if row["league_name"]
+        ]
 
         OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
@@ -38,7 +57,7 @@ def main():
             for name in tournaments:
                 f.write(name + "\n")
 
-        print(f"✅ Exported {len(tournaments)} tournaments (sorted by recency) → {OUTPUT_PATH}")
+        print(f"[OK] Exported {len(tournaments)} tournaments → {OUTPUT_PATH}")
 
     finally:
         conn.close()

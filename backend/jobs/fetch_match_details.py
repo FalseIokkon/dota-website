@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 fetch_match_details.py
 
@@ -5,14 +6,22 @@ Purpose:
 Fetch full OpenDota match details for match IDs already known in match_index
 but not yet stored in matches, then store selected fields and the full raw
 payload in the matches table.
+
+Location:
+    backend/jobs/fetch_match_details.py
 """
 
 import json
+import sys
 from datetime import datetime
 from pathlib import Path
 
-from config import OPENDOTA_API_KEY, DATA_DIR, BACKEND_DIR
-from db import (
+# Make backend/ importable when running this file directly
+BACKEND_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(BACKEND_ROOT))
+
+from app.config import DB_PATH, OPENDOTA_API_KEY, PROJECT_ROOT  # noqa: E402
+from app.db import (  # noqa: E402
     connect_db,
     create_tables,
     get_missing_match_detail_ids,
@@ -21,13 +30,9 @@ from db import (
     get_api_usage,
     match_detail_exists,
 )
-from opendota_client import OpenDotaClient
+from app.opendota_client import OpenDotaClient  # noqa: E402
 
-BACKEND_PATH = Path(BACKEND_DIR)
-DATA_PATH = Path(DATA_DIR)
-
-LOG_PATH = BACKEND_PATH / "fetch_match_details.log"
-DB_PATH = DATA_PATH / "dota.db"
+LOG_PATH = PROJECT_ROOT / "logs" / "fetch_match_details.log"
 
 MAX_MATCH_DETAILS_PER_RUN = 15
 
@@ -39,7 +44,7 @@ def log_line(message: str) -> None:
     Args:
         message: Text to write to the log.
     """
-    BACKEND_PATH.mkdir(parents=True, exist_ok=True)
+    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(LOG_PATH, "a", encoding="utf-8") as log_file:
         log_file.write(f"{datetime.now()}\t{message}\n")
 
@@ -57,7 +62,6 @@ def main() -> None:
     6. Log the result in a format similar to fetch_pro_matches.py.
     """
     log_line("START fetch_match_details")
-    DATA_PATH.mkdir(parents=True, exist_ok=True)
 
     api_key = OPENDOTA_API_KEY or None
 

@@ -10,14 +10,30 @@ env/
 .venv/
 ENV/
 
-# Ignore logs and caches
+# ---- Logs / temp ----
 *.log
-*.sqlite3
-*.db-journal
-*.pyproj
 *.tmp
 *.bak
 *.swp
+
+# ---- Python / project artifacts ----
+*.pyproj
+
+# ---- SQLite / database ----
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Keep only if you truly never want any DB in git
+# data/dota.db
+
+# ---- Environment / secrets ----
+.env
+.env.*
+backend/.env
+config/*.env
+config/.env
 
 # ---- Node / JavaScript ----
 node_modules/
@@ -27,32 +43,29 @@ yarn-error.log*
 dist/
 build/
 .cache/
-.DS_Store
 
-# ---- Database ----
-backend/dota.db
-backend/*.db
-*.sqlite
-
-# ---- Environment & Secrets ----
-.env
-.env.*
-config/*.env
-config/.env
-
-# ---- OS / Editor files ----
-# macOS / Windows
+# ---- OS / editor ----
 .DS_Store
 Thumbs.db
-# VSCode
 .vscode/
 .idea/
 *.code-workspace
 
-# ---- Deployment Artifacts ----
-# rsync or deploy output folders (if any)
+# ---- Deployment artifacts ----
 deploy/
 releases/
 tmp/
 
-data/
+# ---- Generated project outputs ----
+logs/
+data/exports/
+data/derived/
+
+# ---- Optional raw working files ----
+# Ignore raw data dumps if they are large or temporary
+# data/raw/
+
+# ---- Archive helpers ----
+# If archive is just for reference and you want it committed, leave it alone.
+# If not, uncomment:
+# archive/

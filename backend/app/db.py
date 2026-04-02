@@ -1,5 +1,5 @@
 """
-db.py
+backend/app/db.py
 
 Purpose:
 Provide a small SQLite helper layer for the Dota project so all scripts use the

@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """
-discord_notify_long_matches.py
+backend/jobs/discord_notify_long_matches.py
 
 Purpose:
 Scan pro_matches in dota.db for long pro matches in selected tournaments and
 send Discord webhook notifications for matches that have not already been
 notified.
+
 """
 
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -15,22 +17,21 @@ from urllib.parse import quote_plus
 
 import requests
 
-from config import BACKEND_DIR, DATA_DIR, DISCORD_WEBHOOK_URL
-from db import (
+# Make backend/ importable when running this file directly
+BACKEND_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(BACKEND_ROOT))
+
+from app.config import DB_PATH, DISCORD_WEBHOOK_URL, PROJECT_ROOT, TOURNAMENT_LIST_PATH  # noqa: E402
+from app.db import (  # noqa: E402
     connect_db,
     create_tables,
     get_unnotified_long_pro_matches,
     mark_long_match_notified,
 )
 
-BACKEND_PATH = Path(BACKEND_DIR)
-DATA_PATH = Path(DATA_DIR)
+LOG_PATH = PROJECT_ROOT / "logs" / "discord_notify_long_matches.log"
 
-DB_PATH = DATA_PATH / "dota.db"
-LOG_PATH = BACKEND_PATH / "discord_notify_long_matches.log"
-TOURNAMENT_LIST_PATH = BACKEND_PATH / "tournament_list.txt"
-
-LONG_SECONDS = 3000
+LONG_SECONDS = 3600
 MAX_NOTIFICATIONS_PER_RUN = 50
 
 
@@ -41,7 +42,7 @@ def log_line(message: str) -> None:
     Args:
         message: Text to write to the log.
     """
-    BACKEND_PATH.mkdir(parents=True, exist_ok=True)
+    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(LOG_PATH, "a", encoding="utf-8") as log_file:
         log_file.write(f"{datetime.now()}\t{message}\n")
 
@@ -172,13 +173,6 @@ def build_message(match: dict) -> str:
 def main() -> None:
     """
     Find unnotified long pro matches in selected tournaments and notify Discord once per match.
-
-    Steps:
-    1. Load tournament names.
-    2. Query pro_matches in dota.db for long matches not yet notified.
-    3. Send Discord messages.
-    4. Mark successfully sent matches as notified in the database.
-    5. Log a summary.
     """
     log_line("START discord_notify_long_matches")
 
@@ -187,7 +181,6 @@ def main() -> None:
         log_line("No tournament names loaded; exiting.")
         return
 
-    DATA_PATH.mkdir(parents=True, exist_ok=True)
     conn = connect_db(str(DB_PATH))
     create_tables(conn)
 

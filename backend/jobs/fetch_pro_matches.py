@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 fetch_pro_matches.py
 
@@ -5,13 +6,21 @@ Purpose:
 Fetch recent pro matches from OpenDota, add their match IDs into match_index,
 and store lightweight pro-match metadata in pro_matches without fetching full
 match detail payloads.
+
+Location:
+    backend/jobs/fetch_pro_matches.py
 """
 
+import sys
 from datetime import datetime
 from pathlib import Path
 
-from config import OPENDOTA_API_KEY, DATA_DIR, BACKEND_DIR
-from db import (
+# Make backend/ importable when running this file directly
+BACKEND_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(BACKEND_ROOT))
+
+from app.config import DB_PATH, OPENDOTA_API_KEY, PROJECT_ROOT  # noqa: E402
+from app.db import (  # noqa: E402
     connect_db,
     create_tables,
     insert_many_match_index,
@@ -20,13 +29,9 @@ from db import (
     increment_api_usage,
     get_api_usage,
 )
-from opendota_client import OpenDotaClient
+from app.opendota_client import OpenDotaClient  # noqa: E402
 
-BACKEND_PATH = Path(BACKEND_DIR)
-DATA_PATH = Path(DATA_DIR)
-
-LOG_PATH = BACKEND_PATH / "fetch_pro_matches.log"
-DB_PATH = DATA_PATH / "dota.db"
+LOG_PATH = PROJECT_ROOT / "logs" / "fetch_pro_matches.log"
 
 
 def log_line(message: str) -> None:
@@ -36,7 +41,7 @@ def log_line(message: str) -> None:
     Args:
         message: Text to write to the log.
     """
-    BACKEND_PATH.mkdir(parents=True, exist_ok=True)
+    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(LOG_PATH, "a", encoding="utf-8") as log_file:
         log_file.write(f"{datetime.now()}\t{message}\n")
 
@@ -56,7 +61,6 @@ def main() -> None:
     This script does not fetch /matches/{match_id} details.
     """
     log_line("START fetch_pro_matches")
-    DATA_PATH.mkdir(parents=True, exist_ok=True)
 
     api_key = OPENDOTA_API_KEY or None
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-opendota_client.py
+backend/app/opendota_client.py
 
 Purpose:
 Provide a small reusable OpenDota API client for fetching pro matches, personal
