@@ -2,7 +2,7 @@ import json
 import requests
 import os
 from datetime import datetime
-import dotascript_helper_methods as dota_helper
+import archive.legacy_scripts.dotascript_helper_methods as dota_helper
 
 
 file_path = "data/dump.jsonl"
