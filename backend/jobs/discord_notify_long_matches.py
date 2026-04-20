@@ -153,7 +153,7 @@ def build_message(match: dict) -> str:
     match_datetime = format_match_datetime(match.get("start_time"))
     masked_duration = format_masked_duration(duration)
 
-    search_query = f"{league} {radiant} vs {dire}"
+    search_query = f"DOTA {league} {radiant} vs {dire} VOD"
     encoded_query = quote_plus(search_query)
     youtube_url = f"https://www.youtube.com/results?search_query={encoded_query}"
 
