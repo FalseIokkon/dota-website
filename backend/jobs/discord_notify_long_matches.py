@@ -164,8 +164,8 @@ def build_message(match: dict) -> str:
         f"Duration: `{masked_duration}`\n"
         f"League: {league}\n"
         f"\n"
-        f"🔎 [Dotabuff](https://www.dotabuff.com/matches/{match_id})\n"
-        f"▶️ [YouTube Search](<{youtube_url}>)\n"
+        f"[Dotabuff](https://www.dotabuff.com/matches/{match_id})\n"
+        f"[YouTube Search](<{youtube_url}>)\n"
         f"Match ID: `{match_id}`"
     )
 
