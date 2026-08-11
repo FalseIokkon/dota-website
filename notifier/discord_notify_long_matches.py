@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-backend/jobs/discord_notify_long_matches.py
+notifier/discord_notify_long_matches.py
 
 Purpose:
 Scan pro_matches in dota.db for long pro matches in selected tournaments and
@@ -17,12 +17,12 @@ from urllib.parse import quote_plus
 
 import requests
 
-# Make backend/ importable when running this file directly
-BACKEND_ROOT = Path(__file__).resolve().parents[1]
-sys.path.append(str(BACKEND_ROOT))
+# Make core/ importable when running this file directly
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(REPO_ROOT))
 
-from app.config import DB_PATH, DISCORD_WEBHOOK_URL, PROJECT_ROOT, TOURNAMENT_LIST_PATH  # noqa: E402
-from app.db import (  # noqa: E402
+from core.config import DB_PATH, DISCORD_WEBHOOK_URL, PROJECT_ROOT  # noqa: E402
+from core.db import (  # noqa: E402
     connect_db,
     create_tables,
     get_unnotified_long_pro_matches,
@@ -30,6 +30,7 @@ from app.db import (  # noqa: E402
 )
 
 LOG_PATH = PROJECT_ROOT / "logs" / "discord_notify_long_matches.log"
+TOURNAMENT_LIST_PATH = Path(__file__).resolve().parent / "tournament_list.txt"
 
 LONG_SECONDS = 3600
 MAX_NOTIFICATIONS_PER_RUN = 50

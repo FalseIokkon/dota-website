@@ -15,12 +15,12 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-# Make backend/ importable when running this file directly
-BACKEND_ROOT = Path(__file__).resolve().parents[1]
-sys.path.append(str(BACKEND_ROOT))
+# Make core/ importable when running this file directly
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(REPO_ROOT))
 
-from app.config import DB_PATH, OPENDOTA_API_KEY, PROJECT_ROOT  # noqa: E402
-from app.db import (  # noqa: E402
+from core.config import DB_PATH, OPENDOTA_API_KEY, PROJECT_ROOT  # noqa: E402
+from core.db import (  # noqa: E402
     connect_db,
     create_tables,
     insert_many_match_index,
@@ -29,7 +29,7 @@ from app.db import (  # noqa: E402
     increment_api_usage,
     get_api_usage,
 )
-from app.opendota_client import OpenDotaClient  # noqa: E402
+from core.opendota_client import OpenDotaClient  # noqa: E402
 
 LOG_PATH = PROJECT_ROOT / "logs" / "fetch_pro_matches.log"
 

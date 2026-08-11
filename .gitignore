@@ -31,7 +31,6 @@ ENV/
 # ---- Environment / secrets ----
 .env
 .env.*
-backend/.env
 config/*.env
 config/.env
 

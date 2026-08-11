@@ -17,11 +17,11 @@ try:
 except ImportError:
     gaussian_filter = None
 
-# Make backend/ importable
-BACKEND_ROOT = Path(__file__).resolve().parents[2]
-sys.path.append(str(BACKEND_ROOT))
+# Make core/ importable
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(REPO_ROOT))
 
-from app.config import PROJECT_ROOT  # noqa: E402
+from core.config import PROJECT_ROOT  # noqa: E402
 
 INPUT_CSV = PROJECT_ROOT / "data" / "exports" / "wards" / "extract_observer_wards.csv"
 OUTPUT_DIR = PROJECT_ROOT / "data" / "derived" / "heatmaps"

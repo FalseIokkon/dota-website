@@ -3,7 +3,7 @@
 export_tournaments.py
 
 Location:
-    backend/tools/export_tournaments.py
+    notifier/export_tournaments.py
 
 Purpose:
     Extract all unique tournament (league) names from the database
@@ -14,14 +14,13 @@ import sqlite3
 import sys
 from pathlib import Path
 
-# Make backend/ importable
-BACKEND_ROOT = Path(__file__).resolve().parents[1]
-sys.path.append(str(BACKEND_ROOT))
+# Make core/ importable
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(REPO_ROOT))
 
-from app.config import DB_PATH, PROJECT_ROOT  # noqa: E402
+from core.config import DB_PATH  # noqa: E402
 
-# Output file (you can move this later if desired)
-OUTPUT_PATH = PROJECT_ROOT / "backend" / "tools" / "all_tournaments.txt"
+OUTPUT_PATH = Path(__file__).resolve().parent / "all_tournaments.txt"
 
 
 def main():
