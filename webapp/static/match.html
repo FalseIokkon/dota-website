@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Match | Match Tracker</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="row1">
+      <div>
+        <div class="kicker">Live Match Rundown</div>
+        <div class="title" id="matchTitle">Loading...</div>
+      </div>
+      <div class="controls">
+        <div class="clock-block">
+          <div class="clock" id="clockDisplay">0:00</div>
+          <div class="status-label" id="statusLabel">Not Started</div>
+        </div>
+        <div class="btn-row">
+          <button class="primary" id="startClockBtn">Match Starting</button>
+          <button id="pauseResumeBtn">Pause</button>
+          <button class="danger" id="endMatchBtn">End Match</button>
+        </div>
+      </div>
+    </div>
+    <div class="wp-row" id="wpRow"></div>
+  </div>
+
+  <div class="page">
+    <div id="error"></div>
+
+    <section>
+      <h2 class="section-title">Team Tendencies &amp; Player Pool</h2>
+      <div class="grid-2" id="dashboardGrid"><div class="muted">Loading...</div></div>
+    </section>
+
+    <section>
+      <div class="section-head-row">
+        <h2 class="section-title">Draft</h2>
+        <div style="display:flex; gap:8px;">
+          <button class="ghost" id="autoFillBtn" style="display:none;">Auto-Fill Draft (Test)</button>
+          <button class="ghost" id="undoDraftBtn">Undo Last Action</button>
+        </div>
+      </div>
+      <div class="turn-banner" id="turnBanner"></div>
+      <div class="grid-2" style="margin-bottom:16px;" id="banRows"></div>
+      <div class="hero-grid" id="heroGrid" style="margin-bottom:16px;"></div>
+      <div class="grid-2" id="pickRows"></div>
+    </section>
+
+    <section id="assignSection" style="display:none;">
+      <div class="section-head-row">
+        <h2 class="section-title">Assign Players to Heroes</h2>
+        <button class="primary" id="startMatchBtn">Start Match &rarr;</button>
+      </div>
+      <div class="grid-2" id="assignGrid"></div>
+    </section>
+
+    <section id="liveSection">
+      <h2 class="section-title">Live Match Tracker</h2>
+      <div id="livePlaceholder" class="panel muted">Live tracker unlocks once players are assigned and the match is started.</div>
+      <div id="liveContent" style="display:none;">
+        <div class="live-grid" style="display:grid; grid-template-columns:2fr 1fr; gap:18px; margin-bottom:18px;">
+          <div class="panel">
+            <div id="mapContainer"></div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:16px;">
+            <div class="panel">
+              <h2 class="section-title" style="margin-bottom:10px;">Kills / Buybacks</h2>
+              <div class="kill-strip" id="killStrip"></div>
+            </div>
+            <div class="panel">
+              <h2 class="section-title" style="margin-bottom:10px;">Match State</h2>
+              <div class="gold-input-row" style="margin-bottom:10px;">
+                <label class="faint" id="goldLabel" style="width:110px;">Gold lead</label>
+                <input type="number" id="goldInput" placeholder="+/- gold">
+                <button class="small" id="applyGoldBtn">Set</button>
+              </div>
+              <div class="nudge-row" style="margin-bottom:10px;">
+                <label class="faint" style="width:110px;">Manual nudge</label>
+                <input type="range" id="nudgeSlider" min="-15" max="15" step="0.5" value="0">
+                <span id="nudgeValue" class="faint" style="width:50px;">0.0pp</span>
+              </div>
+              <div class="faint" style="margin-bottom:6px;">Correct time (s)</div>
+              <div style="display:flex; gap:6px;">
+                <input type="number" id="timeCorrectionInput" style="width:80px;">
+                <button class="small" id="applyTimeBtn">Apply</button>
+              </div>
+            </div>
+            <div class="panel">
+              <h2 class="section-title" style="margin-bottom:10px;">End Game</h2>
+              <div class="confirm-row">
+                <button class="danger" id="radiantFellBtn"></button>
+                <button class="danger" id="direFellBtn"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-head-row">
+          <h2 class="section-title">Event Log</h2>
+          <button class="ghost" id="undoLiveBtn">Undo Last Event</button>
+        </div>
+        <div class="event-log" id="eventLog"></div>
+      </div>
+    </section>
+
+  </div>
+
+  <div id="modalRoot"></div>
+
+  <script src="js/api.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/map_data.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/match.js"></script>
+</body>
+</html>

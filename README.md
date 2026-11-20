@@ -12,7 +12,7 @@ The repo is organized as a set of sibling Python projects, one per concern, shar
 - `scraper/` — pulls pro matches and match details from OpenDota into the shared database (`dota.db`).
 - `notifier/` — scans the database for long pro matches in watched tournaments and posts Discord alerts. Owns its own config (`tournament_list.txt`) and helper tool (`export_tournaments.py`) since nothing else uses them.
 - `wards/` — extracts observer/sentry ward placements from stored match payloads and renders heatmaps.
-- `odds/` — (placeholder) future project to compute team ratings and matchup odds.
+- `odds/` — computes Glicko-2 ratings from `pro_matches` (org-level, and a player-level model that composites individual account ratings into a team's *current* lineup strength) and compares them against manually-entered moneyline odds to flag +EV bets. Also tracks hero-level signals: per-player hero affinity and current-patch hero meta strength (`hero_affinity.py`, `hero_meta.py`), combined into a win-probability adjustment (`hero_adjustment.py`) usable both pre-draft (`find_ev_bets.py --with-hero-fit`) and live during a draft (`live_draft.py`). See `odds/compute_ratings.py` (`--by-player`), `odds/run_backtest.py` (`--model both`), `odds/verify_lineups.py`, `odds/compute_hero_stats.py`, and `odds/find_ev_bets.py`.
 
 Shared resources used by every project: `.env` (config/secrets), `data/` (raw/exports/derived), and `logs/`. Config that's only relevant to one project (like `notifier/tournament_list.txt`) lives inside that project's folder instead of a shared `config/` directory.
 

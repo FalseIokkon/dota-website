@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Match Tracker</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="topbar" style="position:static;">
+    <div class="row1">
+      <div>
+        <div class="kicker">Live Match Rundown</div>
+        <div class="title">Draft &amp; Live Match Tracker</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="setup-page">
+    <div id="error"></div>
+
+    <div class="panel" style="margin-bottom:16px;">
+      <h2 class="section-title">New Matchup</h2>
+      <div class="form-row">
+        <label>Team A</label>
+        <div class="autocomplete">
+          <input type="text" id="teamAInput" placeholder="e.g. Team Falcons">
+          <div class="suggestions" id="teamASuggestions"></div>
+        </div>
+      </div>
+      <div class="form-row">
+        <label>Team B</label>
+        <div class="autocomplete">
+          <input type="text" id="teamBInput" placeholder="e.g. Team Liquid">
+          <div class="suggestions" id="teamBSuggestions"></div>
+        </div>
+      </div>
+      <div class="form-row">
+        <label>Bans first</label>
+        <select id="firstPickSelect">
+          <option value="team_a">Team A</option>
+          <option value="team_b">Team B</option>
+        </select>
+      </div>
+      <p class="faint" style="margin:-4px 0 10px 140px;">Whichever team won the coin toss / first pick -- Captain's Mode's fixed 24-step ban/pick order is enforced from here.</p>
+      <div class="actions">
+        <button class="primary" id="createBtn">Start Draft</button>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2 class="section-title">Tracked Matches</h2>
+      <div id="matchList" class="muted">Loading...</div>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/setup.js"></script>
+</body>
+</html>

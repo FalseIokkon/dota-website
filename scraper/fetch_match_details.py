@@ -30,7 +30,7 @@ from core.db import (  # noqa: E402
     get_api_usage,
     match_detail_exists,
 )
-from app.opendota_client import OpenDotaClient  # noqa: E402
+from core.opendota_client import OpenDotaClient  # noqa: E402
 
 LOG_PATH = PROJECT_ROOT / "logs" / "fetch_match_details.log"
 

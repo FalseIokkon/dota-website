@@ -148,6 +148,32 @@ class OpenDotaClient:
         )
         return data if isinstance(data, dict) else {}
 
+    def get_player(
+        self,
+        account_id: int,
+        use_api_key: bool = False,
+    ) -> dict:
+        """
+        Fetch profile info for a player from /players/{account_id}.
+
+        The response's profile.name is OpenDota's curated pro-player name
+        (e.g. "9Class"), distinct from profile.personaname (the player's
+        current, frequently-changed Steam display name, e.g. "Pele"). Falls
+        back to null if OpenDota hasn't curated a name for this account.
+
+        Args:
+            account_id: Steam32 account ID.
+            use_api_key: Whether to include the API key on this request.
+
+        Returns:
+            A dictionary containing the player profile payload.
+        """
+        data = self._request(
+            f"/players/{account_id}",
+            use_api_key=use_api_key,
+        )
+        return data if isinstance(data, dict) else {}
+
     def get_player_matches(
         self,
         account_id: int,
