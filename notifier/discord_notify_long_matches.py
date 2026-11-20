@@ -32,7 +32,7 @@ from core.db import (  # noqa: E402
 LOG_PATH = PROJECT_ROOT / "logs" / "discord_notify_long_matches.log"
 TOURNAMENT_LIST_PATH = Path(__file__).resolve().parent / "tournament_list.txt"
 
-LONG_SECONDS = 3600
+LONG_SECONDS = 3000  # 50 minutes
 MAX_NOTIFICATIONS_PER_RUN = 50
 
 
@@ -180,6 +180,7 @@ def main() -> None:
     tournament_names = load_tournament_set()
     if not tournament_names:
         log_line("No tournament names loaded; exiting.")
+        print("No tournaments are tracked; nothing to check.")
         return
 
     conn = connect_db(str(DB_PATH))
@@ -195,6 +196,7 @@ def main() -> None:
 
         if not matches:
             log_line("Found 0 unnotified long matches; sent 0 new notifications.")
+            print("Found 0 new long matches.")
             return
 
         sent_count = 0
@@ -222,10 +224,12 @@ def main() -> None:
             else:
                 failed_count += 1
 
-        log_line(
+        summary = (
             f"Found {len(matches)} unnotified long matches; "
             f"sent {sent_count} new notifications; failed {failed_count}."
         )
+        log_line(summary)
+        print(summary)
 
     finally:
         conn.close()

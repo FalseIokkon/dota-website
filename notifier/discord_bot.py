@@ -16,13 +16,13 @@ Purpose:
         /tracked-all            - show every tracked tournament
         /tournaments [query]    - browse/search tournaments known from the DB export
         /tournaments-all        - show every known tournament
-        /refresh                - re-run export_tournaments.py immediately
+        /refresh                - re-export tournaments and check for long matches now
         /help                   - list all commands
 """
 
+import asyncio
 import io
 import os
-import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -40,6 +40,8 @@ NOTIFIER_DIR = Path(__file__).resolve().parent
 TOURNAMENT_LIST_PATH = NOTIFIER_DIR / "tournament_list.txt"
 ALL_TOURNAMENTS_PATH = NOTIFIER_DIR / "all_tournaments.txt"
 EXPORT_SCRIPT_PATH = NOTIFIER_DIR / "export_tournaments.py"
+NOTIFY_SCRIPT_PATH = NOTIFIER_DIR / "discord_notify_long_matches.py"
+NOTIFY_LOCK_PATH = "/tmp/discord_notify_long_matches.lock"  # same lock the cron job uses
 LOG_PATH = PROJECT_ROOT / "logs" / "discord_bot.log"
 
 MAX_AUTOCOMPLETE_CHOICES = 25
@@ -294,7 +296,28 @@ async def tournaments_all(interaction: discord.Interaction):
     )
 
 
-@client.tree.command(description="Re-run export_tournaments.py now instead of waiting for cron")
+async def run_script(args: list[str], timeout: int) -> str:
+    """Run a command without blocking the event loop; return its combined output."""
+    proc = await asyncio.create_subprocess_exec(
+        *args,
+        cwd=str(REPO_ROOT),
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.STDOUT,
+    )
+    try:
+        stdout, _ = await asyncio.wait_for(proc.communicate(), timeout=timeout)
+    except asyncio.TimeoutError:
+        proc.kill()
+        await proc.wait()
+        return f"(timed out after {timeout}s)"
+
+    output = stdout.decode("utf-8", errors="replace").strip() or "(no output)"
+    if proc.returncode != 0 and args[0] == "flock" and output == "(no output)":
+        return "Skipped: the cron notifier run is still going, so its results will post anyway."
+    return output
+
+
+@client.tree.command(description="Refresh the tournament list and check for long matches now")
 async def refresh(interaction: discord.Interaction):
     if not in_correct_guild(interaction):
         await interaction.response.send_message("Not authorized here.", ephemeral=True)
@@ -302,16 +325,22 @@ async def refresh(interaction: discord.Interaction):
 
     await interaction.response.defer(ephemeral=True)
     try:
-        result = subprocess.run(
-            [sys.executable, str(EXPORT_SCRIPT_PATH)],
-            cwd=str(REPO_ROOT),
-            capture_output=True,
-            text=True,
-            timeout=60,
+        export_output = await run_script([sys.executable, str(EXPORT_SCRIPT_PATH)], timeout=60)
+        log_line(f"REFRESH export: {export_output}")
+
+        # Share cron's lock so a manual run never overlaps a cron run (no duplicate alerts).
+        # -w waits briefly for an in-progress cron run instead of failing immediately.
+        notify_output = await run_script(
+            ["flock", "-w", "30", NOTIFY_LOCK_PATH, sys.executable, str(NOTIFY_SCRIPT_PATH)],
+            timeout=120,
         )
-        output = (result.stdout or result.stderr or "(no output)").strip()
-        log_line(f"REFRESH: {output}")
-        await interaction.followup.send(f"```\n{output}\n```", ephemeral=True)
+        log_line(f"REFRESH notify: {notify_output}")
+
+        await interaction.followup.send(
+            f"**Tournaments:**\n```\n{export_output[-800:]}\n```"
+            f"**Long matches:**\n```\n{notify_output[-800:]}\n```",
+            ephemeral=True,
+        )
     except Exception as exc:
         log_line(f"ERROR refresh failed: {exc}")
         await interaction.followup.send(f"Refresh failed: {exc}", ephemeral=True)
